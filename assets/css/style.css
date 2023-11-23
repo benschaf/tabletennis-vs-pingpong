@@ -26,6 +26,11 @@ header {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+/* Make Logo appear more interesting by lowering the letter spacing */
+.logo {
+    letter-spacing: -2px;
+}
+
 /* Navbar styles with dropdown toggle 
 THIS SECTION IS ALSO TAKEN FROM LOVE RUNNING and slightly adapted*/
 /* Navbar styles with dropdown toggle */
