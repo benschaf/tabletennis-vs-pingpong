@@ -13,6 +13,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
 /* Header Section */
 header {
     position: fixed;
