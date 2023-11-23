@@ -71,7 +71,7 @@ nav {
 #hero {
     margin-top: 96px;
     height: 80vh;
-    padding: 3rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,7 +79,7 @@ nav {
 }
 
 #hero-image {
-    background: url(../images/hero-image.webp) no-repeat top center/cover;
+    background: url(../images/hero-image.webp) no-repeat bottom center/cover;
     width: 90vw;
     min-height: 500px;
     border-radius: 32px;
