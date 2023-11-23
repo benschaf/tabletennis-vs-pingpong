@@ -130,6 +130,7 @@ nav {
 
 .rounded-rectangle-container {
     display: flex;
+    margin: 0 1rem;
     padding: 2rem 1rem;
     flex-direction: column;
     align-items: stretch;
@@ -137,3 +138,12 @@ nav {
     border-radius: 32px;
     background: #F3F3F3;
 }
+
+.rounded-rectangle-container p {
+    padding-bottom: 2rem;
+}
+
+.bold-paragraph {
+    font-weight: 600;
+}
+
