@@ -123,6 +123,11 @@ nav {
 }
 
 /* Differences Section */
+#section-divider-differences {
+    background: url(../images/section-divider-1.webp) no-repeat center center/cover;
+    min-height: 200px;
+}
+
 .rounded-rectangle-container {
     display: flex;
     padding: 2rem 1rem;
