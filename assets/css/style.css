@@ -61,6 +61,7 @@ nav {
 }
 
 #hero-image {
+    position: relative;
     background: url(../images/hero-image.webp) no-repeat top center/cover;
     width: 90vw;
     min-height: 500px;
@@ -69,7 +70,15 @@ nav {
 }
 
 #hero-text {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    /* Bug: cant center align div over a picture with a line that isnt exactly in the center ... */
+    left: 120px;
+    width: 100px;
+    display: flex;
+    gap: 3rem;
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
 }
