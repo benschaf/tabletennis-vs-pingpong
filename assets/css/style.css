@@ -151,3 +151,27 @@ nav {
     font-weight: 600;
 }
 
+#timeline-container {
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 10px;
+}
+
+#line-container {
+    flex-grow: 2;
+    min-width: 2rem;
+}
+
+#line {
+    background-color: purple;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#eventlist-container {
+    flex-grow: 8;
+}
+
+
