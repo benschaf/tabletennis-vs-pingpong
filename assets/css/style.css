@@ -81,7 +81,7 @@ nav {
 #hero-image {
     background: url(../images/hero-image.webp) no-repeat top center/cover;
     width: 90vw;
-    min-height: 500px;
+    min-height: 450px;
     border-radius: 32px;
     text-align: center;
 }
