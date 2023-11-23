@@ -29,6 +29,7 @@ header {
     padding: 12px 32px;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -70,7 +71,6 @@ nav {
 /* Hero Section */
 #hero {
     margin-top: 96px;
-    /* height: 80vh; */
     padding: 3rem 0;
     display: flex;
     flex-direction: column;
