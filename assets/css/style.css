@@ -108,3 +108,16 @@ nav {
     line-height: 90%;
     color: #ffffff;
 }
+
+.hero-button {
+    /* Button Style */
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    /* SHOULD THIS BE A MORE VISIBLE COLOR??? */
+    background-color: #2B2B34;
+    border-style: none;
+    /* Text Style */
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
