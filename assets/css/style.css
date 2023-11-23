@@ -8,6 +8,8 @@ THIS IS ALSO COPIED FROM LOVE RUNNGING - HOW MUCH IS TOO MUCH*/
 
 /* Header Section */
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     width: 100%;
     height: 96px;
@@ -15,6 +17,34 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Navbar styles with dropdown toggle 
+THIS SECTION IS ALSO TAKEN FROM LOVE RUNNING and slightly adapted*/
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 80%;
+    right: 0;
+    padding: 0 1rem;
+    border-radius: 0 0 5px 5px;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Section */
