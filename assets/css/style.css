@@ -52,4 +52,24 @@ nav {
 /* Hero Section */
 #hero {
     margin-top: 96px;
+    height: 80vh;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-image {
+    background: url(../images/hero-image.webp) no-repeat top center/cover;
+    width: 90vw;
+    min-height: 500px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+#hero-text {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
