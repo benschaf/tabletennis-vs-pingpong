@@ -123,6 +123,10 @@ nav {
 }
 
 /* Differences Section */
+#differences {
+    padding-bottom: 3rem;
+}
+
 #section-divider-differences {
     background: url(../images/section-divider-1.webp) no-repeat center center/cover;
     min-height: 200px;
