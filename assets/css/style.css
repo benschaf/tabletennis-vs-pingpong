@@ -151,27 +151,36 @@ nav {
     font-weight: 600;
 }
 
-#timeline-container {
+
+#timeline-element-container {
     margin: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
-    gap: 10px;
 }
 
 #line-container {
     flex-grow: 2;
     min-width: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
 }
 
 #line {
-    background-color: purple;
-    border-radius: 5px;
-    padding: 1rem;
+    width: 1px;
+    border: medium solid black;
+}
+
+.line-top-element {
+    border-radius: 3px 3px 0 0;
+}
+
+.line-bottom-element {
+    border-radius: 0 0 3px 3px;
 }
 
 #eventlist-container {
     flex-grow: 8;
 }
-
-
