@@ -151,9 +151,11 @@ nav {
     font-weight: 600;
 }
 
+#eventlist-container {
+    margin: 50px 0;
+}
 
 #timeline-element-container {
-    margin: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
