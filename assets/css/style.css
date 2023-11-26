@@ -183,3 +183,14 @@ nav {
     flex-grow: 8;
     margin: 40px 0;
 }
+
+/* Quotes Section */
+#quotes-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.quote {
+    min-width: 80vw;
+}
