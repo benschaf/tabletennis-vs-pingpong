@@ -213,6 +213,17 @@ nav {
 }
 
 /* Signup Section */
+#signup-section {
+    text-align: center;
+    padding: 1rem 0 3rem 0;
+}
+
 .blue-text {
     color: #28798B;
+}
+
+.newsletter-button {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
 }
