@@ -136,6 +136,12 @@ ul li #nav-subscribe-button {
     color: #ffffff;
 }
 
+#hero-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-button {
     /* Button Style */
     padding: 1rem 2rem;
@@ -354,9 +360,17 @@ footer {
     /* Signup Section */
     #signup-section {
         display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 0;
+    }
+
+    #signup-text {
+        padding: 3rem 0;
     }
 
     #signup-picture {
         display: block;
+        width: 50vw;
     }
 }
