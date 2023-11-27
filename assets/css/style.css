@@ -258,6 +258,11 @@ ul li #nav-subscribe-button {
     color: #000000;
 }
 
+#signup-picture {
+    background: url(../images/signup-picture.webp) no-repeat center center/cover;
+    display: none;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -345,4 +350,6 @@ footer {
         min-width: unset;
         max-width: 300px;
     }
+
+    /* Signup Section */
 }
