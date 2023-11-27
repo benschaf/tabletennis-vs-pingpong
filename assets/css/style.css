@@ -311,4 +311,20 @@ footer {
         justify-content: space-between;
         padding: 2rem 0;
     }
+
+    /* Differences Section */
+    .rounded-rectangle-container {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    #diff-outer-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    #diff-outer-container>div{
+        flex: 1;
+    }
 }
