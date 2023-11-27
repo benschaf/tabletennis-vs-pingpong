@@ -324,7 +324,12 @@ footer {
         gap: 3rem;
     }
 
-    #diff-outer-container>div{
+    #diff-outer-container>div {
         flex: 1;
+    }
+
+    #timeline-container {
+        max-width: 744px;
+        margin: 0 auto;
     }
 }
