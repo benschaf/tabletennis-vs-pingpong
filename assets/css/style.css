@@ -208,4 +208,8 @@ nav {
     min-width: 80vw;
 }
 
+.right-aligned-paragraph {
+    text-align: right;
+}
+
 /* Signup Section */
