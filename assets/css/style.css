@@ -364,6 +364,10 @@ footer {
         align-items: stretch;
         padding: 0;
     }
+    
+    #signup-section > div {
+        flex-grow: 1;
+    }
 
     #signup-text {
         padding: 3rem 0;
