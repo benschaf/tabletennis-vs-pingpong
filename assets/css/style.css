@@ -266,3 +266,49 @@ footer {
     background-color: #151526;
     color: #ffffff;
 }
+
+/* Media query: tablets and larger (768 and up) */
+@media screen and (min-width: 768px) {
+
+    /* Navbar */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        padding-right: 12px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        border-radius: 0;
+        top: 0;
+        padding: 0;
+    }
+
+    #menu {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    /* Hero Section */
+    #hero-image {
+        height: 750px;
+    }
+
+    #hero-text {
+        padding-top: 3rem;
+    }
+
+    #hero-bottom-container {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+}
