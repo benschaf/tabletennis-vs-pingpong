@@ -185,10 +185,23 @@ nav {
 }
 
 /* Quotes Section */
+#quotes-section {
+    background-color: #2B2B34;
+}
+
+#quotes-section h2, h3 {
+    color: #ffffff;
+}
+
+#quotes-section h3 {
+    text-align: center;
+}
+
 #quotes-container {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
+    padding: 3rem 0;
 }
 
 .quote {
