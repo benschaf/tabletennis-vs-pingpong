@@ -352,4 +352,11 @@ footer {
     }
 
     /* Signup Section */
+    #signup-section {
+        display: flex;
+    }
+
+    #signup-picture {
+        display: block;
+    }
 }
