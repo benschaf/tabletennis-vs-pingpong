@@ -332,4 +332,17 @@ footer {
         max-width: 744px;
         margin: 0 auto;
     }
+
+    /* Quotes Section */
+    #quotes-container {
+        overflow-x: visible;
+        flex-wrap: wrap;
+        gap: 3rem 0;
+        padding: 3rem 0;
+    }
+
+    #quotes-container>div {
+        min-width: unset;
+        max-width: 300px;
+    }
 }
