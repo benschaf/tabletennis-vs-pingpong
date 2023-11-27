@@ -189,7 +189,8 @@ nav {
     background-color: #2B2B34;
 }
 
-#quotes-section h2, h3 {
+#quotes-section h2,
+h3 {
     color: #ffffff;
 }
 
@@ -226,4 +227,13 @@ nav {
     width: 190px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: space-between;
+    background-color: #151526;
+    color: #ffffff;
 }
