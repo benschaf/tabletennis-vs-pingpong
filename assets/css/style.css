@@ -106,7 +106,7 @@ ul li #nav-subscribe-button {
 }
 
 #hero-image {
-    background: url(../images/hero-image.webp) no-repeat top center/cover;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
     width: 90vw;
     min-height: 450px;
     border-radius: 32px;
