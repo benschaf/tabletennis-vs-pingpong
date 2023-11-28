@@ -295,6 +295,19 @@ main {
     color: #28798B;
 }
 
+.newsletter-button {
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #55C2DA;
+    color: #000000;
+}
+
+#signup-picture {
+    background: url(../images/signup-picture.webp) no-repeat center center/cover;
+    display: none;
+}
+
 /* Signup Form */
 #signup-form {
     display: none;
@@ -331,8 +344,6 @@ input[type=submit] {
     border-radius: 2rem;
 }
 
-
-
 /* Signup toggle */
 #signup-toggle:checked~#signup-form {
     display: block;
@@ -344,27 +355,6 @@ input[type=submit] {
 
 .signup-toggle-label {
     font-size: 2.5rem;
-}
-
-
-
-
-
-
-
-
-
-.newsletter-button {
-    width: 190px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #55C2DA;
-    color: #000000;
-}
-
-#signup-picture {
-    background: url(../images/signup-picture.webp) no-repeat center center/cover;
-    display: none;
 }
 
 /* Footer */
