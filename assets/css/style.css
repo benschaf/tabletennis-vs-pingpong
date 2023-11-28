@@ -353,10 +353,6 @@ input[type=submit] {
     display: none;
 }
 
-.signup-toggle-label {
-    font-size: 2.5rem;
-}
-
 /* Footer */
 footer {
     display: flex;
@@ -471,6 +467,7 @@ footer {
 
 /* Media query: Laptops, desktops, 992px and up */
 @media screen and (min-width: 992px) {
+
     /* Hero Section */
     #hero {
         flex-direction: row;
@@ -480,6 +477,11 @@ footer {
     #hero-bottom-container {
         flex-direction: column;
         gap: 3rem;
+    }
+
+    /* Signup Form */
+    #signup-form {
+        display: block;
     }
 }
 
