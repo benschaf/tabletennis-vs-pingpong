@@ -392,9 +392,14 @@ footer {
 
 /* Media query: Laptops, desktops, 992px and up */
 @media screen and (min-width: 992px) {
+    section {
+        padding: 0 3rem;
+    }
+
     /* Hero Section */
     #hero {
         flex-direction: row;
+        margin: 5rem 3rem 3rem 3rem
     }
 
     #hero-bottom-container {
@@ -406,5 +411,23 @@ footer {
 /* Media query: Big Laptops, desktops, 1200px and up */
 @media screen and (min-width: 1200px) {
     /* Differences Section */
-    
+    #differences {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 3rem;
+    }
+
+    #differences h2 {
+        padding: 0 0 2rem 0;
+    }
+
+    #differences-text-container {
+        flex: 2 0 0;
+        margin: 3rem 0;
+    }
+
+    #section-divider-differences {
+        flex: 1 0 0;
+        border-radius: 32px;
+    }
 }
