@@ -23,7 +23,8 @@
         <h1 class="logo">Clickball</h1>
         <!-- !!! The Following Code is Taken From Love Running -- can I do this??? -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
+        <!-- Do I have to aria-label the navbar? -->
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open Navigation bar">
             <i class="fa-solid fa-bars"></i>
         </label>
         <nav>
@@ -48,6 +49,7 @@
             <!-- Container used to switch between column / row layout for responisivity-->
             <div id="hero-bottom-container">
                 <h2>Are they the same?</h2>
+                <!-- Do I have to aria-label this link? -->
                 <button class="hero-button"><a href="#signup-section">We have
                         a<br>Newsletter</a></button>
             </div>
@@ -174,7 +176,7 @@
                 <h2 id="signup-title">
                     Sign up <span class="blue-text">today</span>
                 </h2>
-                <button class="hero-button newsletter-button">Get our<br>Newsletter</button>
+                    <button class="hero-button newsletter-button">Get our<br>Newsletter</button>
             </div>
             <div id="signup-picture"></div>
         </section>
