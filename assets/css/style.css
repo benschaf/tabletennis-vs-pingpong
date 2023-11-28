@@ -69,6 +69,11 @@ nav {
     font-size: 2rem;
 }
 
+.active {
+    /* should I use !important here? */
+    text-decoration: underline !important;
+}
+
 ul li #nav-subscribe-button {
     /* Button Style */
     padding: 1rem 2rem;
