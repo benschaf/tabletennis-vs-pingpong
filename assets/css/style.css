@@ -9,6 +9,10 @@ THIS IS ALSO COPIED FROM LOVE RUNNGING - HOW MUCH IS TOO MUCH*/
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -103,6 +107,7 @@ main {
     /* restrict main section width for readability and center it if it gets too large */
     max-width: 1600px;
     margin: 0 auto;
+
 }
 
 /* Hero Section */
