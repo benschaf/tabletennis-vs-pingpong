@@ -295,6 +295,65 @@ main {
     color: #28798B;
 }
 
+/* Signup Form */
+#signup-form {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 2rem;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #2B2B34;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-style: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+
+
+/* Signup toggle */
+#signup-toggle:checked~#signup-form {
+    display: block;
+}
+
+#signup-toggle {
+    display: none;
+}
+
+.signup-toggle-label {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
 .newsletter-button {
     width: 190px;
     margin-left: auto;
