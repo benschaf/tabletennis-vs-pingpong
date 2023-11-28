@@ -14,7 +14,7 @@ body {
 }
 
 h2 {
-    padding: 2rem;
+    padding: 8rem 2rem 4rem 2rem;
     font-size: 2.5rem;
     text-align: center;
 }
@@ -142,6 +142,10 @@ ul li #nav-subscribe-button {
     align-items: center;
 }
 
+#hero-bottom-container>h2 {
+    padding: 2rem;
+}
+
 .hero-button {
     /* Button Style */
     padding: 1rem 2rem;
@@ -236,7 +240,7 @@ ul li #nav-subscribe-button {
     padding: 3rem 0;
 }
 
-.quote {
+#quotes-container>div {
     min-width: 80vw;
 }
 
@@ -248,6 +252,10 @@ ul li #nav-subscribe-button {
 #signup-section {
     text-align: center;
     padding: 1rem 0 3rem 0;
+}
+
+#signup-section h2 {
+    padding: 2rem;
 }
 
 .blue-text {
@@ -346,13 +354,15 @@ footer {
     #quotes-container {
         overflow-x: visible;
         flex-wrap: wrap;
-        gap: 3rem 0;
+        justify-content: center;
+        gap: 3rem;
         padding: 3rem 0;
     }
 
     #quotes-container>div {
         min-width: unset;
         max-width: 300px;
+        margin: 0;
     }
 
     /* Signup Section */
@@ -368,7 +378,7 @@ footer {
     }
 
     #signup-text {
-        padding: 3rem 0;
+        padding: 8rem 0;
     }
 
     #signup-picture {
