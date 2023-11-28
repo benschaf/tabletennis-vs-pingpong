@@ -94,6 +94,11 @@ ul li #nav-subscribe-button {
 }
 
 /* Main Section */
+main {
+    /* restrict main section width for readability and center it if it gets too large */
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
 /* Hero Section */
 #hero {
@@ -192,10 +197,12 @@ ul li #nav-subscribe-button {
 #timeline {
     margin-bottom: 3rem;
 }
-#timeline > h3 {
+
+#timeline>h3 {
     padding-bottom: 4rem;
     text-align: center;
 }
+
 .timeline-element-container {
     display: flex;
     align-items: stretch;
@@ -414,6 +421,7 @@ footer {
 
 /* Media query: Big Laptops, desktops, 1200px and up */
 @media screen and (min-width: 1200px) {
+
     /* Differences Section */
     #differences {
         display: flex;
