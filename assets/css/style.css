@@ -308,16 +308,16 @@ form {
 }
 
 input[type=email] {
-    width: 100%;
+    width: 80%;
     padding: 15px;
     margin: 2rem;
-    display: inline-block;
+    border-radius: 1rem;
     border: none;
     background: #f1f1f1;
 }
 
 input[type=email]:focus {
-    background-color: #ddd;
+    background-color: #dddddd;
     outline: none;
 }
 
