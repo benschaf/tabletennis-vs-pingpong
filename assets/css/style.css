@@ -391,7 +391,20 @@ footer {
 }
 
 /* Media query: Laptops, desktops, 992px and up */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    /* Hero Section */
+    #hero {
+        flex-direction: row;
+    }
+
+    #hero-bottom-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
 
 /* Media query: Big Laptops, desktops, 1200px and up */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    /* Differences Section */
+    
+}
