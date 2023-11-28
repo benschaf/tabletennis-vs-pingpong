@@ -316,7 +316,7 @@ footer {
 
     #hero-bottom-container {
         width: 90vw;
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         padding: 2rem 0;
     }
