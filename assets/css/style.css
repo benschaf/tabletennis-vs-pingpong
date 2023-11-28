@@ -194,6 +194,7 @@ ul li #nav-subscribe-button {
 }
 #timeline > h3 {
     padding-bottom: 4rem;
+    text-align: center;
 }
 .timeline-element-container {
     display: flex;
