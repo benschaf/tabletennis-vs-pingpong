@@ -189,6 +189,9 @@ ul li #nav-subscribe-button {
 }
 
 /* Timeline Section */
+#timeline h3 {
+    padding-bottom: 4rem;
+}
 .timeline-element-container {
     display: flex;
     align-items: stretch;
