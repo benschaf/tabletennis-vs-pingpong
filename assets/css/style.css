@@ -407,10 +407,6 @@ footer {
 
 /* Media query: Laptops, desktops, 992px and up */
 @media screen and (min-width: 992px) {
-    section {
-        padding: 0 3rem;
-    }
-
     /* Hero Section */
     #hero {
         flex-direction: row;
@@ -428,6 +424,7 @@ footer {
 
     /* Differences Section */
     #differences {
+        padding: 0 3rem;
         display: flex;
         flex-direction: row-reverse;
         gap: 3rem;
