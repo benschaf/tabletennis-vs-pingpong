@@ -184,15 +184,14 @@ ul li #nav-subscribe-button {
     font-weight: 600;
 }
 
+/* Timeline Section */
 .timeline-element-container {
     display: flex;
-    justify-content: space-evenly;
     align-items: stretch;
 }
 
 .line-container {
-    flex-grow: 2;
-    min-width: 2rem;
+    flex: 0 0 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -212,8 +211,7 @@ ul li #nav-subscribe-button {
     border-radius: 0 0 3px 3px;
 }
 
-.event {
-    flex-grow: 8;
+.timeline-element-container>.event {
     margin: 40px 0;
 }
 
@@ -364,8 +362,8 @@ footer {
         align-items: stretch;
         padding: 0;
     }
-    
-    #signup-section > div {
+
+    #signup-section>div {
         flex-grow: 1;
     }
 
