@@ -185,6 +185,10 @@ main {
     background: #F3F3F3;
 }
 
+#differences h3 {
+    padding: 1rem 0;
+}
+
 .rounded-rectangle-container p {
     padding-bottom: 2rem;
 }
