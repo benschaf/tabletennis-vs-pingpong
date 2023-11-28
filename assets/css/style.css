@@ -389,3 +389,9 @@ footer {
         width: 50vw;
     }
 }
+
+/* Media query: Laptops, desktops, 992px and up */
+@media screen and (min-width: 992px) {}
+
+/* Media query: Big Laptops, desktops, 1200px and up */
+@media screen and (min-width: 1200px) {}
