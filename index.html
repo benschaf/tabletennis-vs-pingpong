@@ -12,7 +12,24 @@
         content="clickball, table tennis, ping pong, differences, newsletter, play, sports, paddle, ball">
     <!-- Title -->
     <title>Document</title>
-    <!-- Favicon -->
+    <!-- Favicon (added using https://www.favicon-generator.org) -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -63,34 +80,34 @@
                     <p class="bold-paragraph">
                         Ping pong and table tennis are two different names for the same sport. However, there are some
                         differences between the two.
-                        <div id="diff-outer-container">
-                            <div class="diff-inner-container">
-                                <h3>
-                                    <i class="fa-solid fa-circle-check" style="color: #29c926;"></i> Ping Pong
-                                </h3>
-                                <p>
-                                    Ping pong is a casual game that is often played in homes and recreational centers.
-                                    It is
-                                    played
-                                    on a
-                                    smaller table, and the paddles are usually made of wood.
-                                </p>
-                            </div>
-                            <div class="diff-inner-container">
-                                <h3>
-                                    <i class="fa-solid fa-circle-check" style="color: #29c926;"></i> Table Tennis
-                                </h3>
-                                <p>
-                                    Table tennis, on the other hand, is a professional sport that is played on a larger
-                                    table. The
-                                    paddles used in table tennis are made of rubber, and the game is played at a much
-                                    faster
-                                    pace
-                                    than
-                                    ping pong.
-                                </p>
-                            </div>
+                    <div id="diff-outer-container">
+                        <div class="diff-inner-container">
+                            <h3>
+                                <i class="fa-solid fa-circle-check" style="color: #29c926;"></i> Ping Pong
+                            </h3>
+                            <p>
+                                Ping pong is a casual game that is often played in homes and recreational centers.
+                                It is
+                                played
+                                on a
+                                smaller table, and the paddles are usually made of wood.
+                            </p>
                         </div>
+                        <div class="diff-inner-container">
+                            <h3>
+                                <i class="fa-solid fa-circle-check" style="color: #29c926;"></i> Table Tennis
+                            </h3>
+                            <p>
+                                Table tennis, on the other hand, is a professional sport that is played on a larger
+                                table. The
+                                paddles used in table tennis are made of rubber, and the game is played at a much
+                                faster
+                                pace
+                                than
+                                ping pong.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -205,25 +222,16 @@
                 <h2 id="signup-title">
                     Sign up <span class="blue-text">today</span>
                 </h2>
-
-
-                 <!-- !!! The Following Code is Taken From Love Running -- can I do this??? -->
-                 <input type="checkbox" id="signup-toggle" name="signup-toggle">
-                 <!-- Do I have to aria-label the navbar? -->
-                 <label for="signup-toggle" aria-label="Open Signup input Field">
-                     <div class="hero-button newsletter-button"> Get our Newsletter</div>
-                 </label>
-                 <div id="signup-form">
-                    <form>
-                        <input type="email" id="email" name="email" required>
-                        <input type="submit" value="Sign up">
-                    </form>
-
-                 </div>
-
-
-
-
+                <!-- !!! The Following Code is Taken From Love Running -- can I do this??? -->
+                <input type="checkbox" id="signup-toggle" name="signup-toggle">
+                <!-- Do I have to aria-label the navbar? -->
+                <label for="signup-toggle" aria-label="Open Signup input Field">
+                    <div class="hero-button newsletter-button"> Get our Newsletter</div>
+                </label>
+                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <input type="email" id="email" name="email" placeholder="your@email.here" required>
+                    <input type="submit" value="Sign up">
+                </form>
             </div>
             <div id="signup-picture"></div>
         </section>
