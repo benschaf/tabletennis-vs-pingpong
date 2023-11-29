@@ -358,7 +358,7 @@ input[type=submit] {
 .masonry-gallery {
     display: flex;
     flex-flow: column wrap;
-    max-height: 800px;
+    max-height: 1300px;
     /* Adjustment for the gutter */
     margin-left: -8px;
     width: 100%;
@@ -367,6 +367,13 @@ input[type=submit] {
 .masonry-brick {
     /* Some gutter */
     margin: 0 8px 8px 0;
+    /* allow for 3 columns */
+    width: 33%;
+}
+
+.masonry-brick>img {
+    width: 100%;
+    height: 100%;
 }
 
 
