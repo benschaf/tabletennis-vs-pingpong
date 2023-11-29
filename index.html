@@ -67,6 +67,7 @@
             <div id="hero-bottom-container">
                 <h2>Are they the same?</h2>
                 <!-- Do I have to aria-label this link? -->
+                <!-- Remove the button and add the style class to the a tag anchor -->
                 <button class="hero-button"><a href="#signup-section">We have
                         a<br>Newsletter</a></button>
             </div>
@@ -226,8 +227,11 @@
                 <input type="checkbox" id="signup-toggle" name="signup-toggle">
                 <!-- Do I have to aria-label the navbar? -->
                 <label for="signup-toggle" aria-label="Open Signup input Field">
+                    <!-- Change the div to span -->
                     <div class="hero-button newsletter-button"> Get our Newsletter</div>
                 </label>
+                <!-- Dont send the form to codeinstitute - just make a new page with the content! Thanks for subscribing well send you a mail, youll be redirected -->
+                <!-- remove method post - action equals name of the above file -->
                 <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                     <input type="email" id="email" name="email" placeholder="your@email.here" required>
                     <input type="submit" value="Sign up">
