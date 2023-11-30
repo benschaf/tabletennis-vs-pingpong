@@ -392,6 +392,7 @@ input[type=submit] {
     /* remove the flex property of border box */
     display: block;
 }
+
 /* Footer */
 footer {
     display: flex;
