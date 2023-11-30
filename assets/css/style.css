@@ -403,8 +403,25 @@ footer {
     display: flex;
     padding: 10px 16px;
     justify-content: space-between;
+    align-items: center;
     background-color: #151526;
     color: #ffffff;
+}
+
+/* Styling for Socials adapted from Love Running by Code Institute */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #dddddd;
 }
 
 /* Media query: small Phones (375 and down) */
