@@ -364,6 +364,12 @@ input[type=submit] {
     margin: 0 auto;
 }
 
+.gallery-subtitle {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
 /* Masonry styling for Gallery. Adapted from https: //w3bits.com/flexbox-masonry/ */
 .masonry-gallery {
     display: flex;
@@ -383,6 +389,13 @@ footer {
     justify-content: space-between;
     background-color: #151526;
     color: #ffffff;
+}
+
+/* Media query: small Phones (375 and down) */
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 /* Media query: tablets and larger (768 and up) */
