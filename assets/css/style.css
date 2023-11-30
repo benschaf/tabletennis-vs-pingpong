@@ -358,26 +358,23 @@ input[type=submit] {
 }
 
 /* Gallery Section */
+#gallery {
+    width: 90vw;
+    margin: 0 auto;
+}
+
 /* Masonry styling for Gallery. Adapted from https: //w3bits.com/flexbox-masonry/ */
 .masonry-gallery {
     display: flex;
-    flex-flow: column wrap;
-    max-height: 1300px;
-    /* Adjustment for the gutter */
-    margin-left: -8px;
-    width: 100%;
+    flex-direction: column;
 }
 
-.masonry-brick {
-    /* Some gutter */
-    margin: 0 8px 8px 0;
-    /* allow for 3 columns */
-    width: 33%;
-}
+.masonry-brick {}
 
 .masonry-brick>img {
     width: 100%;
-    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 
