@@ -87,7 +87,6 @@ nav {
 }
 
 .active {
-    /* should I use !important here? */
     border-radius: 2rem;
     background-color: #dddddd;
 }
