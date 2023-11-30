@@ -81,9 +81,15 @@ nav {
     font-size: 2rem;
 }
 
+#menu>li {
+    border-style: solid;
+    border-color: #ffffff;
+}
+
 .active {
     /* should I use !important here? */
-    text-decoration: underline !important;
+    border-radius: 2rem;
+    background-color: #dddddd;
 }
 
 ul li #nav-subscribe-button {
@@ -438,6 +444,13 @@ footer {
         display: flex;
         align-items: center;
         padding: 0;
+    }
+
+    /* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
+    #menu li:nth-child(-n+2):hover {
+        border-radius: 2rem;
+        border-style: solid;
+        border-color: #2B2B34;
     }
 
     #nav-subscribe-button:hover {
