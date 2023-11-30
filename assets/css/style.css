@@ -364,7 +364,7 @@ input[type=submit] {
     margin: 0 auto;
 }
 
-.gallery-subtitle {
+.paragraph-subtitle {
     text-align: center;
     padding-bottom: 2rem;
     font-weight: 700;
@@ -382,6 +382,16 @@ input[type=submit] {
     border-radius: 12px;
 }
 
+/* Signup Page */
+.redirect-link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.inline-text {
+    /* remove the flex property of border box */
+    display: block;
+}
 /* Footer */
 footer {
     display: flex;
