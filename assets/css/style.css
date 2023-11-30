@@ -369,8 +369,6 @@ input[type=submit] {
     flex-direction: column;
 }
 
-.masonry-brick {}
-
 .masonry-brick>img {
     width: 100%;
     object-fit: cover;
@@ -493,6 +491,36 @@ footer {
         display: block;
         width: 50vw;
     }
+
+    /* Gallery Section */
+    .masonry-gallery {
+        flex-wrap: wrap;
+        max-height: 2190px;
+        /* Adjustment for the gutter */
+        margin-left: -8px;
+    }
+
+    .masonry-brick {
+        /* Some gutter */
+        margin: 0 8px 8px 0;
+        /* allow for 2 columns */
+        width: 50%;
+    }
+
+    .masonry-brick>img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}
+
+/* Media query for Gallery 840px and up */
+@media screen and (min-width: 840px) {
+
+    /* Gallery Section */
+    .masonry-gallery {
+        max-height: 2390px;
+    }
 }
 
 /* Media query: Laptops, desktops, 992px and up */
@@ -512,6 +540,11 @@ footer {
     /* Signup Form */
     #signup-form {
         display: block;
+    }
+
+    /* Gallery Section */
+    .masonry-gallery {
+        max-height: 2870px;
     }
 }
 
@@ -538,5 +571,15 @@ footer {
     #section-divider-differences {
         flex: 1 0 0;
         border-radius: 32px;
+    }
+
+    /* Gallery Section */
+    .masonry-gallery {
+        max-height: 1640px;
+        max-width: 1400px;
+    }
+
+    .masonry-brick {
+        width: 33%;
     }
 }
