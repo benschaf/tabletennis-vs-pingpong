@@ -549,6 +549,8 @@ footer {
 
     .slider__contents {
         padding: 0 2rem;
+        justify-content: center;
+        margin-bottom: 110px;
     }
 
     @keyframes check {
