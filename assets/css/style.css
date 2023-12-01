@@ -442,7 +442,7 @@ footer {
     header {
         padding-right: 12px;
         /* Always keep header on top */
-        z-index: 5000;
+        z-index: 10000;
     }
 
     nav {
