@@ -323,11 +323,11 @@ main {
     height: fit-content;
     display: flex;
     flex-flow: row wrap;
+    align-items: stretch;
 }
 
 .slider__contents {
-    height: 70%;
-    min-width: 200px;
+    min-width: 270px;
     margin: 2rem;
     padding: 2rem 2rem;
     border-radius: 32px;
@@ -335,7 +335,7 @@ main {
     flex: 1;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f3f3f3;
 }
 
@@ -352,6 +352,7 @@ main {
 
 .slider_author {
     align-self: flex-end;
+    text-align: right;
     font-weight: 700;
 }
 
@@ -769,8 +770,8 @@ footer {
     }
 }
 
-/* Media query for slider-quotes Section 1056px and up */
-@media screen and (min-width: 1056px) {
+/* Media query for slider-quotes Section 1336px and up */
+@media screen and (min-width: 1336px) {
     .slider {
         min-height: 500px;
     }
