@@ -147,11 +147,14 @@ main {
     /* Bug: cant center align div over a picture with a line that isnt exactly in the center ... */
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
     display: flex;
     justify-content: center;
     gap: 3rem;
     text-align: left;
+}
+
+#hero-text > p {
+    flex: 1;
 }
 
 .text-align-right {
