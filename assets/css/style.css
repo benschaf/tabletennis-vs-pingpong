@@ -268,35 +268,6 @@ main {
     margin: 40px 0;
 }
 
-/* Quotes Section */
-#quotes-section {
-    background-color: #2B2B34;
-}
-
-#quotes-section h2,
-#quotes-section h3 {
-    color: #ffffff;
-}
-
-#quotes-section h3 {
-    text-align: center;
-}
-
-#quotes-container {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    padding: 3rem 0;
-}
-
-#quotes-container>div {
-    min-width: 80vw;
-}
-
-.right-aligned-paragraph {
-    text-align: right;
-}
-
 /* slider-quotes Section */
 #slider-quotes {
     background-color: #2b2b34;
@@ -650,21 +621,6 @@ body>footer {
     #timeline-container {
         max-width: 744px;
         margin: 0 auto;
-    }
-
-    /* Quotes Section */
-    #quotes-container {
-        overflow-x: visible;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 3rem;
-        padding: 3rem 0;
-    }
-
-    #quotes-container>div {
-        min-width: unset;
-        max-width: 300px;
-        margin: 0;
     }
 
     /* Signup Section */
