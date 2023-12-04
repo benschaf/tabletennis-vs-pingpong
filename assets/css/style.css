@@ -48,6 +48,7 @@ header {
 /* Make Logo appear more interesting by lowering the letter spacing */
 .logo {
     letter-spacing: -2px;
+    color: #000000;
 }
 
 /* Navbar styles with dropdown toggle 
