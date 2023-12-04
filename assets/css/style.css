@@ -309,7 +309,7 @@ main {
 }
 
 .slider__contents {
-    min-width: 270px;
+    min-width: 250px;
     margin: 2rem;
     padding: 2rem 2rem;
     border-radius: 32px;
