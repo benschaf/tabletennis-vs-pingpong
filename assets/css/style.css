@@ -35,6 +35,8 @@ a {
 /* Header Section */
 header {
     position: fixed;
+    /* Always keep header on top */
+    z-index: 9999;
     top: 0;
     display: flex;
     width: 100%;
@@ -560,8 +562,6 @@ body>footer {
 
     header {
         padding-right: 12px;
-        /* Always keep header on top */
-        z-index: 9999;
     }
 
     nav {
