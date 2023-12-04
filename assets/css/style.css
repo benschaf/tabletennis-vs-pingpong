@@ -70,36 +70,34 @@ nav {
     padding-bottom: 1rem;
 }
 
-#menu>li {
-    padding: 1rem;
-    height: fit-content;
-}
-
 #menu a {
+    padding: 1rem 2rem;
     text-decoration: none;
     color: #000000;
     font-size: 2rem;
-}
-
-#menu>li {
-    border-style: solid;
-    border-color: #ffffff;
+    border-radius: 2rem;
 }
 
 .active {
-    border-radius: 2rem;
     background-color: #dddddd;
 }
 
 ul li #nav-subscribe-button {
-    /* Button Style */
-    padding: 1rem 2rem;
-    border-radius: 2rem;
+
     background-color: #2B2B34;
-    /* Text Style */
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
+#menu li:nth-child(-n+2)>a:hover {
+    background-color: #F3F3F3;
+}
+
+#nav-subscribe-button:hover {
+    background-color: #55C2DA;
+    color: #000000;
 }
 
 /* Nav toggle */
@@ -153,7 +151,7 @@ main {
     text-align: left;
 }
 
-#hero-text > p {
+#hero-text>p {
     flex: 1;
 }
 
@@ -597,19 +595,8 @@ footer {
     #menu {
         display: flex;
         align-items: center;
+        gap: 1rem;
         padding: 0;
-    }
-
-    /* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
-    #menu li:nth-child(-n+2):hover {
-        border-radius: 2rem;
-        border-style: solid;
-        border-color: #2B2B34;
-    }
-
-    #nav-subscribe-button:hover {
-        background-color: #55C2DA;
-        color: #000000;
     }
 
     /* Hero Section */
