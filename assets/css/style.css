@@ -243,6 +243,8 @@ main {
 .timeline-element-container {
     display: flex;
     align-items: stretch;
+    max-width: 100%;
+    margin: 0 1rem;
 }
 
 .line-container {
