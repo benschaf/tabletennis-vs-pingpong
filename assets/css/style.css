@@ -364,13 +364,18 @@ main {
 /* Signup Form */
 #signup-form {
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 form {
+    background-color: #f3f3f3;
+    border-radius: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 input[type=email] {
@@ -379,11 +384,11 @@ input[type=email] {
     margin: 2rem;
     border-radius: 1rem;
     border: none;
-    background: #f1f1f1;
+    background: #ffffff;
 }
 
 input[type=email]:focus {
-    background-color: #dddddd;
+    box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.25);
     outline: none;
 }
 
@@ -393,13 +398,14 @@ input[type=submit] {
     font-size: 1.5rem;
     font-weight: 700;
     border-style: none;
+    margin: 2rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
 }
 
 /* Signup toggle */
 #signup-toggle:checked~#signup-form {
-    display: block;
+    display: flex;
 }
 
 #signup-toggle {
@@ -637,6 +643,10 @@ body>footer {
 
     #signup-text {
         padding: 8rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 2rem;
     }
 
     .newsletter-button:hover {
@@ -702,7 +712,7 @@ body>footer {
 
     /* Signup Form */
     #signup-form {
-        display: block;
+        display: flex;
     }
 
     /* Gallery Section */
