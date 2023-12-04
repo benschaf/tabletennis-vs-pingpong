@@ -472,7 +472,7 @@ input[type=submit] {
 }
 
 /* Footer */
-footer {
+body>footer {
     display: flex;
     padding: 10px 16px;
     justify-content: space-between;
