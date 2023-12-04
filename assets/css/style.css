@@ -67,7 +67,11 @@ nav {
 
 #menu {
     list-style-type: none;
-    padding-bottom: 1rem;
+    padding: 1rem;
+}
+
+#menu>li {
+    padding: 1rem 0;
 }
 
 #menu a {
@@ -82,8 +86,7 @@ nav {
     background-color: #dddddd;
 }
 
-ul li #nav-subscribe-button {
-
+ul li a#nav-subscribe-button {
     background-color: #2B2B34;
     color: #ffffff;
     font-size: 1.5rem;
