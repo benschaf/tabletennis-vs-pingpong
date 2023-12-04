@@ -18,6 +18,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #f3f3f3;
 }
 
 h2 {
@@ -123,6 +124,7 @@ main {
     width: 100vw;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #ffffff;
     flex-grow: 1;
 }
 
