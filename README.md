@@ -15,6 +15,17 @@ The design process was separated into XXXX phases:
 UX research practices werent in the scope of this project.
 
 ### Colour Scheme
+The Colour Scheme for this Project was extracted from it's [hero image](#tabletennis-vs-pingpong). The blue tones work nicely together with most Table Tennis related Pictures because of the blue color of official Table Tennis tables.
+
+- `#2B2B34` used for darker backgrounds.
+- `#F3F3F3` used for text bubbles
+- `#151536` used for the footer.
+- `#000000` used for primary text.
+- `#55C2DA` used for primary highlights.
+
+I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to generate my colour palette.
+
+![Colour Scheme from coolours](documentation/images/colour_scheme_pp1.png)
 
 ### Typography
 
