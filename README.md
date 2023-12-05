@@ -54,21 +54,90 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 
 Hero
 
+![mobile-hero](documentation/images/wireframes/mobile-hero.png)
+
 Differences
+
+![mobile-differences](documentation/images/wireframes/mobile-differences.png)
 
 Timeline
 
+![mobile-timeline](documentation/images/wireframes/mobile-timeline.png)
+
 Quotes
+
+![mobile-quotes](documentation/images/wireframes/mobile-quotes.png)
 
 Sign-up
 
+![mobile-signup](documentation/images/wireframes/mobile-signup.png)
+
 Footer
+
+![mobile-footer](documentation/images/wireframes/mobile-footer.png)
 
 </details>
 
+
 ### Tablet Wireframes
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+
+Hero
+
+![tablet-hero](documentation/images/wireframes/tablet-hero.png)
+
+Differences
+
+![tablet-differences](documentation/images/wireframes/tablet-differences.png)
+
+Timeline
+
+![tablet-timeline](documentation/images/wireframes/tablet-timeline.png)
+
+Quotes
+
+![tablet-quotes](documentation/images/wireframes/tablet-quotes.png)
+
+Sign-up
+
+![tablet-signup](documentation/images/wireframes/tablet-signup.png)
+
+Footer
+
+![tablet-footer](documentation/images/wireframes/tablet-footer.png)
+
+</details>
 
 ### Desktop Wireframes
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+Hero
+
+![desktop-hero](documentation/images/wireframes/desktop-hero.png)
+
+Differences
+
+![desktop-differences](documentation/images/wireframes/desktop-differences.png)
+
+Timeline
+
+![desktop-timeline](documentation/images/wireframes/desktop-timeline.png)
+
+Quotes
+
+![desktop-quotes](documentation/images/wireframes/desktop-quotes.png)
+
+Sign-up
+
+![desktop-signup](documentation/images/wireframes/desktop-signup.png)
+
+Footer
+
+![desktop-footer](documentation/images/wireframes/desktop-footer.png)
+
+</details>
 
 ## Features
 
