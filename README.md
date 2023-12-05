@@ -77,6 +77,13 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 ## Testing
 
 ## Deployment
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://github.com/benschaf/tabletennis-vs-pingpong), navigate to the Settings tab
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://benschaf.github.io/tabletennis-vs-pingpong)
 
 ### Local Deployment
 
