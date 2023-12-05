@@ -10,7 +10,7 @@ This repository provides an engaging and informative platform that explores the 
 The design process was separated into XXXX phases:
 1. **Collecting inspiration:** Design ideas for the project were taken from the following two websites: store.google.com and youtube.com. The resulting design for this website is kept clean and simple.
 2. **Creating User Stories, Wireframes and Mockups:** These were prepared in order to create a better vision of the final project. These drafts were then tailored to provide a relevant and meaningufl exprecience to the user.
-3. **Collecting feedback early on:** My Mentor and the great Community of Code Institute were essential in ironing out UX considerations that I hadn't considered. For Acknowledgements see the [title further down](###Acknowledgements).
+3. **Collecting feedback early on:** My Mentor and the great Community of Code Institute were essential in ironing out UX considerations that I hadn't considered. For Acknowledgements see ["Acknowledgements"](###Acknowledgements).
 
 UX research practices werent in the scope of this project.
 
@@ -28,6 +28,8 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 ![Colour Scheme from coolours](documentation/images/colour_scheme_pp1.png)
 
 ### Typography
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for all text on the website. `letter-spacing -2px` was used on titles to differentiate them from other text.
+- [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 
