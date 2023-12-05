@@ -86,6 +86,7 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 The live link can be found [here](https://benschaf.github.io/tabletennis-vs-pingpong)
 
 ### Local Deployment
+This project can be cloned or forked in order to make a local copy on your own system.
 
 ### Cloning
 
