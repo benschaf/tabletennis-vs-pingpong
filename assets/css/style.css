@@ -736,8 +736,8 @@ body>footer {
     }
 }
 
-/* Media query for slider-quotes Section 1336px and up */
-@media screen and (min-width: 1336px) {
+/* Media query for slider-quotes Section 1256px and up */
+@media screen and (min-width: 1256px) {
     .slider {
         min-height: 500px;
     }
