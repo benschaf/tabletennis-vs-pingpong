@@ -33,9 +33,18 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 
 ## User Stories
 
-### New Site Users
+-- can I include user stories that go beyond the scope of the project? --
 
-### Returning Site Users
+|As a|I would like to|so that I can|
+|----|----|----|
+|new site user|find information about Table Tennis,|tell my friends about it.|
+|Returning user|Access the latest news and trends in the world of Table Tennis,|Stay informed about the sport.|
+|Table Tennis enthusiast|Find training resources and tips,|Improve my skills and technique.|
+|Table Tennis enthusiast|Find information about the rules and regulations of Table Tennis,|Improve my understanding of the sport.|
+|Ping Pong player|Learn more about the differences between Ping Pong and Table Tennis,|Improve my knowledge of the sport.|
+|Table Tennis player|Access a media gallery with photos and videos of Table Tennis matches,|Enjoy watching Table Tennis matches and highlights.|
+|Table Tennis player|Access a forum where I can connect with other Table Tennis players,|Share tips and advice with other players.|
+|Table Tennis fan|Find merchandise related to Table Tennis,|Show my support for the sport.|
 
 ## Wireframes
 
