@@ -1,6 +1,6 @@
 # [TABLETENNIS VS PINGPONG](https://benschaf.github.io/tabletennis-vs-pingpong)
 
-Have you ever finally wanted to settle the difference in meaning of “Table Tennis” and “Ping Pong”? Have you never heard of the sport “Clickball” before? Then this website is perfect for you!
+Do you finally want to settle the difference between “Table Tennis” and “Ping Pong”? Have you never heard of the sport “Clickball” before? Then this website is perfect for you!
 
 ![iamresponsive mockup image](documentation/images/mockup.png)
 
