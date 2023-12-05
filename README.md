@@ -49,6 +49,22 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 ## Wireframes
 
 ### Mobile Wireframes
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+Hero
+
+Differences
+
+Timeline
+
+Quotes
+
+Sign-up
+
+Footer
+
+</details>
 
 ### Tablet Wireframes
 
