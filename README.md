@@ -297,8 +297,8 @@ Once the user inserts an email and submits the form, they are redirected to the 
 
 The automatic redirect is acheived using the following code on line 21 in `subscribed.html`:
 
-[`<meta http-equiv="refresh" content="10; url=index.html#signup-section">`
-click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/subscribed.html#L21)
+`<meta http-equiv="refresh" content="10; url=index.html#signup-section">`
+[click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/subscribed.html#L21)
 
 ![screenshot-signedup](/documentation/images/screenshots/screenshot-signedup.png)
 
@@ -501,9 +501,26 @@ You can fork this repository by using the following steps:
 ### Content
 
 ### Media
+| Source | Location | name | Notes |
+| --- | --- | --- | --- |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net/) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com/) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my wife Maria, for believing in me, and allowing me to make this transition into software development.
