@@ -49,7 +49,7 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 ## Wireframes
 Wireframes were created using draw.io. Aditionally I created mockups of the website using [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) which helped immensly with translating the design ideas to responsive CSS code.
 
-###draw.io Wireframes
+### draw.io Wireframes
 
 #### Mobile Wireframes
 <details>
@@ -321,6 +321,36 @@ The website has a footer that includes social media links and other relevant inf
 
 ##### Responsive Design
 The website is designed to be responsive and can adapt to different screen sizes, making it easy to use on mobile devices.
+
+###### Pop-up menu and signup form
+The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from `the love running project by code institute`. Below is the html and css for the signup form popup functionality:
+
+!!! Format the following codeblocks
+
+```
+                <input type="checkbox" id="signup-toggle" name="signup-toggle">
+                <!-- Do I have to aria-label the navbar? -->
+                <label for="signup-toggle" aria-label="Open Signup input Field">
+                    <span class="hero-button newsletter-button">Get our Newsletter</span>
+                </label>
+                <form id="signup-form" action="subscribed.html">
+                    <input type="email" id="email" name="email" placeholder="your@email.here" required>
+                    <input type="submit" value="Sign up now">
+                </form>
+```
+!!! click to view code
+```
+                /* Signup toggle */
+                #signup-toggle:checked~#signup-form {
+                    display: flex;
+                }
+
+                #signup-toggle {
+                    display: none;
+                }
+```
+!!! click to view code
+
 
 ###### Max Width and Background Colour
 The website restricts the width of the main section to 1600px for readability and centers it if it gets too large.
