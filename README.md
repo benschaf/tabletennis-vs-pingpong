@@ -499,6 +499,18 @@ You can fork this repository by using the following steps:
 ## Credits
 
 ### Content
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+|[Code Institute](https://github.com/Code-Institute-Org)|love-running-2.0|How to write meta tags for search engines|
+|[Code Institute](https://github.com/Code-Institute-Org)|love-running-2.0|Navigation bar and Newsletter form that toggle in and out of view|
+|[Favicon Generator](https://www.favicon-generator.org)|main site|turn Fontawesome icon into favicon files|
+|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)|theme-color|change the theme color on phone browsers|
+|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)| blockquote |semantic and accessible HTML for quotations including a way to cite|
+|[codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100)|maheshambure21|interactive quote slider section|
+|[Amp What](amp-what.com)|[link](https://www.amp-what.com/unicode/search/%26copy%3B)|&copy; / `&copy;` character|
+
 
 
 ### Media
@@ -520,6 +532,17 @@ You can fork this repository by using the following steps:
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/weisser-golfball-auf-blauem-tisch-R1m90FLHJFY) | section-divider-1.webp | thanks go to Ben Sauer |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/vier-manner-spielen-tischtennis-g_OYkZ-fbLM) | signup-picture.webp | thanks go to 
 Proxyclick Visitor Management System |
+
+### Text content
+|Source|Location|Notes|
+| --- | --- | --- |
+|[The Guardian](https://www.theguardian.com)|[What is the difference between pingpong and table tennis?](https://www.theguardian.com/notesandqueries/query/0,5753,-25477,00.html)|Content for the Quote Section|
+
+### Regrets (Version Control)
+Since this is my first project using version control, the first half of the commit messages aren't written very carefully. Quite often the title of messages goes over the 50 character limit and the imperative mode isn't always used. I was already too far into the project when I found out that commit messages cannot be edited after pushing them to github.
+
+After consultation about this with my mentor, I made sure to study Chris Beams's 
+[How to Write a Git Commit Message](https://cbea.ms/git-commit/) and adhere to the principles layed out in that document.
 
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
