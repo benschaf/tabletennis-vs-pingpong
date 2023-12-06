@@ -47,8 +47,11 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 |Table Tennis fan|Find merchandise related to Table Tennis,|Show my support for the sport.|
 
 ## Wireframes
+Wireframes were created using draw.io. Aditionally I created mockups of the website using [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) which helped immensly with translating the design ideas to responsive CSS code.
 
-### Mobile Wireframes
+###draw.io Wireframes
+
+#### Mobile Wireframes
 <details>
 <summary> Click here to see the Mobile Wireframes </summary>
 
@@ -78,8 +81,7 @@ Footer
 
 </details>
 
-
-### Tablet Wireframes
+#### Tablet Wireframes
 <details>
 <summary> Click here to see the Tablet Wireframes </summary>
 
@@ -109,7 +111,7 @@ Footer
 
 </details>
 
-### Desktop Wireframes
+#### Desktop Wireframes
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
@@ -136,6 +138,101 @@ Sign-up
 Footer
 
 ![desktop-footer](documentation/images/wireframes/desktop-footer.png)
+
+</details>
+
+### [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) Design mockups
+Note that the Figma mockups don't look exactly like the final product since I only used them for initial implementation of the code. They represent an earlier version of the site. For later design changes I adapted the wireframes made with draw.io above.
+
+[Click here](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) to view the Figma project.
+
+#### Mobile Mockups
+<details>
+<summary> Click here to see the Mobile Mockups </summary>
+
+Hero
+
+![mobile-hero](documentation/images/figma-mockups/mobile-hero.png)
+
+Differences
+
+![mobile-differences](documentation/images/figma-mockups/mobile-differences.png)
+
+Timeline
+
+![mobile-timeline](documentation/images/figma-mockups/mobile-timeline.png)
+
+Quotes
+
+![mobile-quotes](documentation/images/figma-mockups/mobile-quotes.png)
+
+Sign-up
+
+![mobile-signup](documentation/images/figma-mockups/mobile-signup.png)
+
+Footer
+
+![mobile-footer](documentation/images/figma-mockups/mobile-footer.png)
+
+</details>
+
+#### Tablet Mockups
+<details>
+<summary> Click here to see the Tablet Mockups </summary>
+
+Hero
+
+![tablet-hero](documentation/images/figma-mockups/tablet-hero.png)
+
+Differences
+
+![tablet-differences](documentation/images/figma-mockups/tablet-differences.png)
+
+Timeline
+
+![tablet-timeline](documentation/images/figma-mockups/tablet-timeline.png)
+
+Quotes
+
+![tablet-quotes](documentation/images/figma-mockups/tablet-quotes.png)
+
+Sign-up
+
+![tablet-signup](documentation/images/figma-mockups/tablet-signup.png)
+
+Footer
+
+![tablet-footer](documentation/images/figma-mockups/tablet-footer.png)
+
+</details>
+
+#### Desktop Mockups
+<details>
+<summary> Click here to see the Desktop Mockups </summary>
+
+Hero
+
+![desktop-hero](documentation/images/figma-mockups/desktop-hero.png)
+
+Differences
+
+![desktop-differences](documentation/images/figma-mockups/desktop-differences.png)
+
+Timeline
+
+![desktop-timeline](documentation/images/figma-mockups/desktop-timeline.png)
+
+Quotes
+
+![desktop-quotes](documentation/images/figma-mockups/desktop-quotes.png)
+
+Sign-up
+
+![desktop-signup](documentation/images/figma-mockups/desktop-signup.png)
+
+Footer
+
+![desktop-footer](documentation/images/figma-mockups/desktop-footer.png)
 
 </details>
 
