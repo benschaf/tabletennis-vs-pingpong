@@ -323,10 +323,23 @@ The website has a footer that includes social media links and other relevant inf
 The website is designed to be responsive and can adapt to different screen sizes, making it easy to use on mobile devices.
 
 ###### Max Width and Background Colour
+The website restricts the width of the main section to 1600px for readability and centers it if it gets too large.
+The website has a background color of `#f3f3f3`.
 
 ##### Rounded Rectangle Container
+The website uses rounded rectangle containers to group related content together. This provides a consistent style language to the user and helps with information architecture.
 
 ### Future Features
+
+- **Improved Subscription Feature**: I think it would be great to add more functionality to the subscription feature. For example, I could allow users to choose the frequency of updates they receive or provide exclusive content to subscribers.
+
+- **Social Media Integration**: I already have social media links in my footer. I could add more social media integration to my website, such as allowing users to share content from my website directly to their social media accounts.
+
+- **Training Videos**: I could add a section to my website that includes training videos created by professional Table Tennis players. This would be a great resource for Table Tennis enthusiasts who want to improve their skills and technique.
+
+- **Discussion Forum**: I would like to add a discussion forum to my website that allows users to create posts, reply to posts, and interact with other users. This would be a great way for Table Tennis players to connect with each other and share tips and advice.
+
+- **Live Streaming**: I think it would be great to add a live streaming feature that allows users to watch Table Tennis and Ping Pong matches in real-time. This feature could also include a chat function that allows users to interact with each other while watching the matches.
 
 ## Tools & Technologies Used
 
