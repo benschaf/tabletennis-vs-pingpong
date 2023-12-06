@@ -500,24 +500,26 @@ You can fork this repository by using the following steps:
 
 ### Content
 
+
 ### Media
-| Source | Location | name | Notes |
+| Source | Location | filename | Notes |
 | --- | --- | --- | --- |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Fontawesome](https://fontawesome.com) | [product page](https://fontawesome.com/icons/table-tennis-paddle-ball?f=classic&s=solid) | favicon-32x32.png & favicon.ico | Source for the Favicon before turning into .png and .ico file |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/selektiver-fokus-der-blauen-tischtennisplatte-c9aGBqkeoE4) | gallery-img-0.webp | thanks go to Ivan Cortez |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/mann-spielt-tischtennis-Rf6z7CFDz48) | gallery-img-1.webp | thanks go to Kenny Eliason |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/rot-brauner-tischtennisschlager-aus-holz-i0kB5B9J8Ds) | gallery-img-2.webp | thanks go to Lisa Keffer |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/mann-im-roten-rundhals-t-shirt-tagsuber-neben-blauem-tisch-yLfHp27Clcg) | gallery-img-3.webp | thanks go to Melanie Lim |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/tischtennisball-in-der-nahe-von-schlagern-auf-dem-tisch-hdHMZumzLTo) | gallery-img-4.webp | thanks go to Nils Schirmer |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/mann-in-grau-schwarzem-kapuzenpullover-und-schwarzer-hose-mit-rot-weissem-basketball-Ww3pyxBtbrQ) | gallery-img-5.webp | thanks go to Maksym Tymchyk |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/tischtennisspieler-serviert-vor-dem-tisch-FMMEpT61n0c) | gallery-img-6.webp | thanks go to Marcus Clark |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/mann-in-weissem-t-shirt-und-blauer-jeans-sitzt-tagsuber-auf-grunem-rasen-4P5SOGfnAOY) | gallery-img-7.webp | thanks go to Jure Zakotnik |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/rote-und-braune-tischtennisplatte-auf-gruner-platte-vPKGcFEbmjc) | gallery-img-8.webp | thanks go to Conor Samuel |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/zwei-manner-spielen-tischtennis-im-raum-dybZ3jXtYUo) | gallery-img-9.webp | thanks go to Ilya Pavlov |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/eine-tischtennisplatte-mit-tischtennisschlagern-und-tischtennisballen-6-ThuNXhuhY) | gallery-img-10.webp | thanks go to Taylor Friehl |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/ein-tischtennispaddel-und-ein-tischtennisball-LsmKRNXnyyA) | hero-image.webp | thanks go to Nicholas Ismael Martinez |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/weisser-golfball-auf-blauem-tisch-R1m90FLHJFY) | section-divider-1.webp | thanks go to Ben Sauer |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/vier-manner-spielen-tischtennis-g_OYkZ-fbLM) | signup-picture.webp | thanks go to 
+Proxyclick Visitor Management System |
 
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
