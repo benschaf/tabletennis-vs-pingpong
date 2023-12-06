@@ -243,20 +243,44 @@ Footer
 #### Website Pages and Sections
 
 ##### Header with Logo and Navigation
+The website has a header navigation bar that allows users to easily navigate to different sections of the site. The last item of the navigation bar serves as a cta (call to action) for the user to subscribe to the [newsletter](#signup-section).
 
 ##### Landing Page
+The Landing page `index.html` gives the user an extensive overview over the topic. It starts with a hero section and a call to action at the top. After that the user discovers information in bite sized sections by scrolling further down. All sections of the Landing page are presented below.
 
 ##### Hero Section
+The website has a hero section with an image and text that introduces the site and its purpose.
+The hero section also includes a visible call to action button which links to the [Signup Section](#signup-section).
 
 ##### Differences Section
+The Differences section lays out initial information about the differences between Table Tennis and Ping Pong. It also describes what the term 'Clickball' means.
+This section is accompanied by an image to generate some interest in this part of the page.
 
 ##### Timeline Section
+The website has a timeline section that displays important events in a chronological order. The timeline is designed in a visually interesting and intuitive way by displaying a vertical timeline next to visually separated events.
 
 ##### Quotes Section
+The website has a quotes section that displays quotes from users. The quotes are only static at this stage of development which means that they are directly coded into the `index.html` file.
 
 ##### Signup Section
+The website has a signup form that allows users to subscribe to a newsletter or other updates. The only function of the signup form at this stage is that it links to the `subscribed.html` page. The email entered into the form isn't stored anywhere.
+This also means that the user won't receive any newsletter updates via email contrary to what is suggested on the website.
 
 ##### Signup Successful Section
+Once the user inserts an email and submits the form, they are redirected to the `subscribed.html` page. There they receive a quick message that they have successfully subscribed. After 10 seconds the website redirects the user automatically back to the Signup Section.
+
+The limited functionality of the signup form is implemented as follows:
+
+```
+                <form id="signup-form" action="subscribed.html">
+                    <input type="email" id="email" name="email" placeholder="your@email.here" required>
+                    <input type="submit" value="Sign up now">
+                </form>
+```
+[click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/index.html#L261-L264)
+
+The automatic redirect is acheived using the following code on line 21 in `subscribed.html`:
+[`<meta http-equiv="refresh" content="10; url=index.html#signup-section">` click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/subscribed.html#L21)
 
 ##### Gallery Page
 
@@ -265,6 +289,7 @@ Footer
 #### Additional Features
 
 ##### Responsive Design
+The website is designed to be responsive and can adapt to different screen sizes, making it easy to use on mobile devices.
 
 ###### Max Width and Background Colour
 
