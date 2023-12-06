@@ -266,9 +266,6 @@ The website has a quotes section that displays quotes from users. The quotes are
 The website has a signup form that allows users to subscribe to a newsletter or other updates. The only function of the signup form at this stage is that it links to the `subscribed.html` page. The email entered into the form isn't stored anywhere.
 This also means that the user won't receive any newsletter updates via email contrary to what is suggested on the website.
 
-##### Signup Successful Section
-Once the user inserts an email and submits the form, they are redirected to the `subscribed.html` page. There they receive a quick message that they have successfully subscribed. After 10 seconds the website redirects the user automatically back to the Signup Section.
-
 The limited functionality of the signup form is implemented as follows:
 
 ```
@@ -279,12 +276,46 @@ The limited functionality of the signup form is implemented as follows:
 ```
 [click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/index.html#L261-L264)
 
+The `method` attribute of the `form` tag was omitted. This basically turns the submit button into an anchor to the `action` attribute content - in this case a link to `subscribed.html`
+
+##### Signup Successful Section
+Once the user inserts an email and submits the form, they are redirected to the `subscribed.html` page. There they receive a quick message that they have successfully subscribed. After 10 seconds the website redirects the user automatically back to the Signup Section.
+
 The automatic redirect is acheived using the following code on line 21 in `subscribed.html`:
-[`<meta http-equiv="refresh" content="10; url=index.html#signup-section">` click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/subscribed.html#L21)
+
+[`<meta http-equiv="refresh" content="10; url=index.html#signup-section">`
+click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/subscribed.html#L21)
 
 ##### Gallery Page
+The Gallery Page displays a couple of pictures on the topic of Table Tennis vs. Ping Pong. The user can spend some time here gathering impressions.
+The Gallery was styled using a responsive vertical masonry style pattern. The code for the gallery is heavily adapted from [w3bits.com](https://w3bits.com/flexbox-masonry/).
+
+The vertical masonry is acheived using flexbox.
+```
+    .masonry-gallery {
+        flex-wrap: wrap;
+        max-height: 2190px;
+        /* Adjustment for the gutter */
+        margin-left: -8px;
+    }
+
+    .masonry-brick {
+        /* Some gutter */
+        margin: 0 8px 8px 0;
+        /* allow for 2 columns */
+        width: 50%;
+    }
+
+    .masonry-brick>img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+```
+[click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/b4edba236cd7baf267776659b745b39e87cc2814/assets/css/style.css#L671-L689)
 
 ##### Footer
+The website has a footer that includes social media links and other relevant information.
 
 #### Additional Features
 

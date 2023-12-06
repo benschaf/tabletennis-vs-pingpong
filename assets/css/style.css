@@ -429,7 +429,7 @@ input[type=submit] {
     font-weight: 700;
 }
 
-/* Masonry styling for Gallery. Adapted from https: //w3bits.com/flexbox-masonry/ */
+/* Masonry styling for Gallery. Adapted from https://w3bits.com/flexbox-masonry/ */
 .masonry-gallery {
     display: flex;
     flex-direction: column;
