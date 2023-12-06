@@ -322,8 +322,8 @@ The website has a footer that includes social media links and other relevant inf
 ##### Responsive Design
 The website is designed to be responsive and can adapt to different screen sizes, making it easy to use on mobile devices.
 
-###### Pop-up menu and signup form
-The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from `the love running project by code institute`. Below is the html and css for the signup form popup functionality:
+###### Pop-up menu and signup form on mobile
+The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from the [love running project by code institute](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu). Below is the html and css for the signup form popup functionality:
 
 !!! Format the following codeblocks
 
@@ -350,6 +350,53 @@ The navigation menu and the signup form are not visible at first on smaller scre
                 }
 ```
 !!! click to view code
+
+###### Animated Quotes Section on mobile
+To reduce scrolling and to make the website a bit more interesting the quotes section is animated when viewed on mobile screens. By clicking on one of the buttons below the quote, a corresponding quote slides into view.
+
+The code for this feature is adapted from a project on codepen.io by [maheshambure21](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100).
+
+The functionality is acheived using radio buttons and an animation:
+```
+    .slider__nav:checked {
+        animation: check 0.4s linear forwards;
+    }
+
+    /* different position depending on which radio button is checked */
+    .slider__nav:checked:nth-of-type(1)~.slider__inner {
+        left: 0%;
+    }
+
+    .slider__nav:checked:nth-of-type(2)~.slider__inner {
+        left: -100%;
+    }
+
+    .slider__nav:checked:nth-of-type(3)~.slider__inner {
+        left: -200%;
+    }
+
+    .slider__nav:checked:nth-of-type(4)~.slider__inner {
+        left: -300%;
+    }
+
+    .slider__inner {
+        /* other code */
+        transition: left 0.4s;
+    }
+
+    /* animation for feedback when checking radio buttons */
+    @keyframes check {
+        50% {
+            outline-color: #6a6a80;
+            box-shadow: 0 0 0 12px #6a6a80, 0 0 0 36px rgba(51, 51, 51, 0.2);
+        }
+
+        100% {
+            outline-color: #6a6a80;
+            box-shadow: 0 0 0 0 #6a6a80, 0 0 0 0 rgba(51, 51, 51, 0);
+        }
+    }
+```
 
 
 ###### Max Width and Background Colour
