@@ -240,6 +240,36 @@ Footer
 
 ### Existing Features
 
+#### Website Pages and Sections
+
+##### Header with Logo and Navigation
+
+##### Landing Page
+
+##### Hero Section
+
+##### Differences Section
+
+##### Timeline Section
+
+##### Quotes Section
+
+##### Signup Section
+
+##### Signup Successful Section
+
+##### Gallery Page
+
+##### Footer
+
+#### Additional Features
+
+##### Responsive Design
+
+###### Max Width and Background Colour
+
+##### Rounded Rectangle Container
+
 ### Future Features
 
 ## Tools & Technologies Used
