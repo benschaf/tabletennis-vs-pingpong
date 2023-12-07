@@ -444,17 +444,20 @@ The website has a background color of `#f3f3f3`.
 
 ## Tools & Technologies Used
 
-- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [Git](https://git-scm.com/) used for version control. (`git add`, `git commit`, `git push`)
-- [GitHub](https://github.com/) used for secure online code storage.
-- [GitHub Pages](https://pages.github.com/) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io/) used as a cloud-based IDE for development.
-- [Codeanywhere](https://codeanywhere.com/) used as a cloud-based IDE for development.
-- [Visual Studio Code](https://visualstudio.microsoft.com/de/#vscode-section) used a  local IDE for development.
-- [draw.io](https://www.drawio.com/) used for wireframe creation.
-- [Figma](https://figma.com) used for design creation.
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout
+- [Git](https://git-scm.com/) used for version control (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com/) used for secure online code storage
+- [GitHub Pages](https://pages.github.com/) used for hosting the deployed front-end site
+- [Gitpod](https://gitpod.io/) used as a cloud-based IDE for development
+- [Codeanywhere](https://codeanywhere.com/) used as a cloud-based IDE for development
+- [Visual Studio Code](https://visualstudio.microsoft.com/de/#vscode-section) used a  local IDE for development
+- [draw.io](https://www.drawio.com/) used for wireframe creation
+- [Figma](https://figma.com) used for design creation
+- [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) used to create colour palette
+- [tinypng](https://tinypng.com/) used to compress images
+- [Birme](https://www.birme.net/?no_resize=true&image_format=webp&quality_webp=80) used to convert images to .webp format
 
 ## Testing
 
