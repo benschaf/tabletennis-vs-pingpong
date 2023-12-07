@@ -252,6 +252,15 @@ main {
     margin: 0 1rem;
 }
 
+.timeline-figure>img {
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.timeline-figure>figcaption {
+    font-style: italic;
+}
+
 .line-container {
     flex: 0 0 50px;
     display: flex;

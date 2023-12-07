@@ -549,6 +549,8 @@ You can fork this repository by using the following steps:
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/ein-tischtennispaddel-und-ein-tischtennisball-LsmKRNXnyyA) | hero-image.webp | thanks go to Nicholas Ismael Martinez |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/weisser-golfball-auf-blauem-tisch-R1m90FLHJFY) | section-divider-1.webp | thanks go to Ben Sauer |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/vier-manner-spielen-tischtennis-g_OYkZ-fbLM) | signup-picture.webp | thanks go to Proxyclick Visitor Management System |
+| [pixabay](https://pixabay.com/de/photos/tischtennis-passion-1208378/)|[product page](https://pixabay.com/de/photos/tischtennis-passion-1208378/)| timeline-picture-1 | thanks go to djimenezhdez |
+| [Wikipedia](https://de.wikipedia.org/w/index.php?curid=8967269) | [product page](https://de.wikipedia.org/w/index.php?curid=8967269) | timeline-picture-2 | thanks go to "Das interessante Blatt" |
 
 ### Text content
 |Source|Location|Notes|
