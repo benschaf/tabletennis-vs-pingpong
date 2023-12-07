@@ -1,3 +1,6 @@
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong)
+
+
 # [TABLETENNIS VS PINGPONG](https://benschaf.github.io/tabletennis-vs-pingpong)
 
 Do you finally want to settle the difference between “Table Tennis” and “Ping Pong”? Have you never heard of the sport “Clickball” before? Then this website is perfect for you!
