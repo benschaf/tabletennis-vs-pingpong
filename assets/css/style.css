@@ -82,7 +82,8 @@ nav {
     padding: 1rem 2rem;
     text-decoration: none;
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     border-radius: 2rem;
 }
 
@@ -90,11 +91,15 @@ nav {
     background-color: #dddddd;
 }
 
+.separated-nav-element {
+    margin-top: 1rem;
+}
+
 ul li a#nav-subscribe-button {
     background-color: #2B2B34;
     color: #ffffff;
-    font-size: 1.5rem;
     font-weight: 700;
+    margin-top: 1rem;
 }
 
 /* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
@@ -582,6 +587,10 @@ body>footer {
         align-items: center;
         gap: 1rem;
         padding: 0;
+    }
+
+    .separated-nav-element {
+        margin-top: 0;
     }
 
     /* Hero Section */
