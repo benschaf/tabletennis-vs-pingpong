@@ -498,6 +498,7 @@ You can fork this repository by using the following steps:
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local vs Deployment
+!!! note what could i write here???
 
 ## Credits
 
@@ -506,20 +507,31 @@ You can fork this repository by using the following steps:
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-|[Code Institute](https://github.com/Code-Institute-Org)|love-running-2.0|How to write meta tags for search engines|
-|[Code Institute](https://github.com/Code-Institute-Org)|love-running-2.0|Navigation bar and Newsletter form that toggle in and out of view|
-|[Favicon Generator](https://www.favicon-generator.org)|main site|turn Fontawesome icon into favicon files|
-|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)|theme-color|change the theme color on phone browsers|
-|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)| blockquote |semantic and accessible HTML for quotations including a way to cite|
-|[codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100)|maheshambure21|interactive quote slider section|
-|[Amp What](amp-what.com)|[link](https://www.amp-what.com/unicode/search/%26copy%3B)|&copy; / `&copy;` character|
-
-
+|[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| head |How to write meta tags for search engines|
+|[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| navigation bar and signup-section |Navigation bar and Newsletter form that toggle in and out of view|
+|[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| footer |Display links to socials in footer using Fontawesome and Flexbox|
+|[Favicon Generator](https://www.favicon-generator.org)| Favicon |turn Fontawesome icon into favicon files|
+|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)| theme-color meta tag|change the theme color on phone browsers|
+|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)| quotes-section |semantic and accessible HTML for quotations including a way to cite|
+|[codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100)| quotes-section |interactive quote slider section|
+|[Amp What](https://www.amp-what.com/unicode/search/%26copy%3B)| footer |&copy; / `&copy;` character|
+| [Tim Nelson](https://github.com/TravelTimN) and  [W3C](https://www.w3.org/TR/WCAG20-TECHS/H76.html) | subscribed page | how to automatically redirect to a different page after a period of time |
+|[Stack Overflow](https://stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one)| navigation bar | How to select only first and second child |
+|[w3bits.com](https://w3bits.com/flexbox-masonry/) | gallery page | how to code a vertical masonry style gallery |
+| [Love Running by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0) | main site | how to override styles added by the browser |
+|[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior) | main site | how to scroll smoothly to a section by clicking a link |
+|[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | main site | code responsive designs using flexbox (thanks go to Code Institute for mentioning this awesome source) |
+| [W3schools](https://www.w3schools.com/css/css_align.asp) | main site | how to center a div |
+| [Love Running by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0) | background pictures | how to position background pictures in a div using `background: url([img-url])no-repeat center center/cover` shorthand |
+| [W3schools](https://www.w3schools.com/css/css_form.asp) | input form | how to address form inputs in CSS |
+| [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) | main site | how to add different kinds of media queries i.e. `min-width` and `max-width` properties|
+| [codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100) | quotes section (only on mobile size) | how to do the functionality of the slider-quotes section |
 
 ### Media
 | Source | Location | filename | Notes |
 | --- | --- | --- | --- |
 | [Fontawesome](https://fontawesome.com) | [product page](https://fontawesome.com/icons/table-tennis-paddle-ball?f=classic&s=solid) | favicon-32x32.png & favicon.ico | Source for the Favicon before turning into .png and .ico file |
+|[Fontawesome](https://fontawesome.com) | whole site | various icons | icons used: fa-bars fa-circle-check fa-turn-down fa-trademark fa-flag-checkered fa-children fa-volume-high fa-facebook fa-twitter-square fa-youtube-square fa-instagram |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/selektiver-fokus-der-blauen-tischtennisplatte-c9aGBqkeoE4) | gallery-img-0.webp | thanks go to Ivan Cortez |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/mann-spielt-tischtennis-Rf6z7CFDz48) | gallery-img-1.webp | thanks go to Kenny Eliason |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/rot-brauner-tischtennisschlager-aus-holz-i0kB5B9J8Ds) | gallery-img-2.webp | thanks go to Lisa Keffer |
@@ -533,8 +545,7 @@ You can fork this repository by using the following steps:
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/eine-tischtennisplatte-mit-tischtennisschlagern-und-tischtennisballen-6-ThuNXhuhY) | gallery-img-10.webp | thanks go to Taylor Friehl |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/ein-tischtennispaddel-und-ein-tischtennisball-LsmKRNXnyyA) | hero-image.webp | thanks go to Nicholas Ismael Martinez |
 | [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/weisser-golfball-auf-blauem-tisch-R1m90FLHJFY) | section-divider-1.webp | thanks go to Ben Sauer |
-| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/vier-manner-spielen-tischtennis-g_OYkZ-fbLM) | signup-picture.webp | thanks go to 
-Proxyclick Visitor Management System |
+| [Unsplash](https://unsplash.com) | [product page](https://unsplash.com/de/fotos/vier-manner-spielen-tischtennis-g_OYkZ-fbLM) | signup-picture.webp | thanks go to Proxyclick Visitor Management System |
 
 ### Text content
 |Source|Location|Notes|
