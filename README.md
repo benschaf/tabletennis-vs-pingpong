@@ -550,7 +550,7 @@ You can fork this repository by using the following steps:
 ### Text content
 |Source|Location|Notes|
 | --- | --- | --- |
-|[The Guardian](https://www.theguardian.com)|[What is the difference between pingpong and table tennis?](https://www.theguardian.com/notesandqueries/query/0,5753,-25477,00.html)|Content for the Quote Section|
+|[The Guardian: What is the difference between pingpong and table tennis?](https://www.theguardian.com/notesandqueries/query/0,5753,-25477,00.html)| quotes section |Content for the Quotes Section|
 
 ### Regrets (Version Control)
 Since this is my first project using version control, the first half of the commit messages aren't written very carefully. Quite often the title of messages goes over the 50 character limit and the imperative mode isn't always used. I was already too far into the project when I found out that commit messages cannot be edited after pushing them to github.
