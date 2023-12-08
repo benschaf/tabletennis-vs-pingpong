@@ -30,6 +30,22 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 
 ![Colour Scheme from coolours](documentation/images/colour_scheme_pp1.png)
 
+I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
+
+```css
+:root {
+    /* p = Primary / s = Secondary */
+    --white-backgorund: #fff;
+    --light-background: #F3F3F3;
+    --s-light-background: #ddd;
+    --dark-backgrond: #2B2B34;
+    --p-highlight: #55C2DA;
+    --s-highlight: #28798B;
+    --p-text: #000;
+    --s-text: #fff;
+}
+```
+
 ### Typography
 - [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for all text on the website. `letter-spacing -2px` was used on titles to differentiate them from other text.
 - [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.

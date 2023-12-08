@@ -1,6 +1,19 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap');
 
+/* :root Variables to easily update colour scheme  */
+:root {
+    /* p = Primary / s = Secondary */
+    --white-backgorund: #fff;
+    --light-background: #F3F3F3;
+    --s-light-background: #ddd;
+    --dark-backgrond: #2B2B34;
+    --p-highlight: #55C2DA;
+    --s-highlight: #28798B;
+    --p-text: #000;
+    --s-text: #fff;
+}
+
 /* override default styles added by the browser 
 THIS IS ALSO COPIED FROM LOVE RUNNGING - HOW MUCH IS TOO MUCH*/
 * {
@@ -18,7 +31,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #f3f3f3;
+    background-color: var(--light-background);
 }
 
 h2 {
@@ -29,7 +42,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--s-text);
 }
 
 .highlight-text {
@@ -37,7 +50,7 @@ a {
 }
 
 .green-icon {
-    color: #29c926;
+    color:var(--p-highlight);
 }
 
 /* Header Section */
@@ -52,14 +65,14 @@ header {
     padding: 12px 32px;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--white-backgorund);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Make Logo appear more interesting by lowering the letter spacing */
 .logo {
     letter-spacing: -2px;
-    color: #000000;
+    color: var(--p-text);
 }
 
 /* Navbar styles with dropdown toggle 
@@ -67,7 +80,7 @@ THIS SECTION IS ALSO TAKEN FROM LOVE RUNNING and slightly adapted*/
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: var(--white-backgorund);
     width: 80%;
     right: 0;
     padding: 0 1rem;
@@ -89,14 +102,14 @@ nav {
 #menu a {
     padding: 1rem 2rem;
     text-decoration: none;
-    color: #000000;
+    color: var(--p-text);
     font-size: 1.5rem;
     font-weight: 500;
     border-radius: 2rem;
 }
 
 .active {
-    background-color: #dddddd;
+    background-color: var(--s-light-background);
 }
 
 .separated-nav-element {
@@ -104,20 +117,20 @@ nav {
 }
 
 ul li a#nav-subscribe-button {
-    background-color: #2B2B34;
-    color: #ffffff;
+    background-color: var(--dark-backgrond);
+    color: var(--s-text);
     font-weight: 700;
     margin-top: 1rem;
 }
 
 /* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
 #menu li:nth-child(-n+2)>a:hover {
-    background-color: #F3F3F3;
+    background-color: var(--light-background);
 }
 
 #nav-subscribe-button:hover {
-    background-color: #55C2DA;
-    color: #000000;
+    background-color: var(--p-highlight);
+    color: var(--p-text);
 }
 
 /* Nav toggle */
@@ -139,7 +152,7 @@ main {
     width: 100vw;
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: var(--white-backgorund);
     flex-grow: 1;
 }
 
@@ -198,14 +211,11 @@ main {
 }
 
 .hero-button {
-    /* Button Style */
     padding: 1rem 2rem;
     border-radius: 2rem;
-    /* SHOULD THIS BE A MORE VISIBLE COLOR??? */
-    background-color: #2B2B34;
+    background-color: var(--dark-backgrond);
     border-style: none;
-    /* Text Style */
-    color: #ffffff;
+    color: var(--s-text);
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -228,7 +238,7 @@ main {
     align-items: stretch;
     gap: 10px;
     border-radius: 32px;
-    background: #F3F3F3;
+    background: var(--light-background);
 }
 
 #differences h3 {
@@ -279,7 +289,7 @@ main {
 
 .line {
     width: 1px;
-    border: medium solid black;
+    border: medium solid var(--dark-backgrond);
 }
 
 .line-top-element {
@@ -296,12 +306,12 @@ main {
 
 /* slider-quotes Section */
 #slider-quotes {
-    background-color: #2b2b34;
+    background-color: var(--dark-backgrond);
 }
 
 #slider-quotes>h2,
 #slider-quotes>h3 {
-    color: #ffffff;
+    color: var(--s-text);
     text-align: center;
 }
 
@@ -340,13 +350,13 @@ main {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #f3f3f3;
+    background-color: var(--light-background);
 }
 
 .slider__image {
     margin-bottom: 2rem;
     font-size: 2.7rem;
-    color: #2b2b34;
+    color: var(--dark-backgrond);
 }
 
 .slider__txt {
@@ -380,20 +390,20 @@ main {
 }
 
 .blue-text {
-    color: #28798B;
+    color: var(--s-highlight);
 }
 
 .newsletter-button {
     width: 190px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #55C2DA;
-    color: #000000;
+    background-color: var(--p-highlight);
+    color: var(--p-text);
 }
 
 label > .newsletter-button:hover {
-    background-color: #2B2B34;
-    color: #F3F3F3;
+    background-color: var(--dark-backgrond);
+    color: var(--s-text);
 }
 
 #signup-picture {
@@ -407,7 +417,7 @@ label > .newsletter-button:hover {
 }
 
 form {
-    background-color: #f3f3f3;
+    background-color: var(--light-background);
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -424,7 +434,7 @@ input[type=email] {
     padding: 15px;
     border-radius: 1rem 0 0 1rem;
     border: none;
-    background: #ffffff;
+    background: var(--s-text);
     font-size: 1rem;
     height: 60px;
 }
@@ -435,8 +445,8 @@ input[type=email]:focus {
 }
 
 input[type=submit] {
-    background-color: #2B2B34;
-    color: #ffffff;
+    background-color: var(--dark-backgrond);
+    color: var(--s-text);
     font-size: 1.5rem;
     font-weight: 700;
     border: none;
@@ -480,7 +490,7 @@ input[type=submit] {
 
 /* Signup Page */
 .redirect-link {
-    color: #000000;
+    color: var(--p-text);
     text-decoration: underline;
 }
 
@@ -495,8 +505,8 @@ body>footer {
     padding: 10px 16px;
     justify-content: space-between;
     align-items: center;
-    background-color: #151526;
-    color: #ffffff;
+    background-color: var(--dark-backgrond);
+    color: var(--s-text);
 }
 
 /* Styling for Socials adapted from Love Running by Code Institute */
@@ -512,7 +522,7 @@ body>footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #dddddd;
+    color: var(--s-light-background);
 }
 
 /* Media query: small Phones (375 and down) */
@@ -550,7 +560,7 @@ body>footer {
         margin: 2rem 12px;
         border-radius: 50%;
         z-index: 10;
-        outline: 24px solid #cccccc;
+        outline: 24px solid var(--s-light-background);
         outline-offset: -24px;
         box-shadow: 0 0 0 0 #333333, 0 0 0 0 rgba(51, 51, 51, 0);
         cursor: pointer;
@@ -658,8 +668,8 @@ body>footer {
     }
 
     .hero-button:hover {
-        background-color: #55C2DA;
-        color: #000000;
+        background-color: var(--p-highlight);
+        color: var(--p-text);
     }
 
     /* Differences Section */
@@ -697,8 +707,8 @@ body>footer {
     }
 
     input[type=submit]:hover {
-        background-color: #55C2DA;
-        color: #000000;
+        background-color: var(--p-highlight);
+        color: var(--p-text);
     }
 
     #signup-picture {
