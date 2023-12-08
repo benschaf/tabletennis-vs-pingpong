@@ -1,6 +1,8 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap');
 
+/* GLOBAL STYLES */
+
 /* :root Variables to easily update colour scheme  */
 :root {
     /* p = Primary / s = Secondary */
@@ -14,8 +16,7 @@
     --s-text: #fff;
 }
 
-/* override default styles added by the browser 
-THIS IS ALSO COPIED FROM LOVE RUNNGING - HOW MUCH IS TOO MUCH*/
+/* override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
@@ -29,15 +30,17 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
+    background-color: var(--light-background);
     display: flex;
     flex-direction: column;
-    background-color: var(--light-background);
 }
 
+/* selector for section titles */
 h2 {
     padding: 8rem 2rem 4rem 2rem;
-    font-size: 2.5rem;
     text-align: center;
+    font-size: 2.5rem;
+    font-stretch: -1;
 }
 
 a {
@@ -49,8 +52,32 @@ a {
     font-weight: 500;
 }
 
-.green-icon {
-    color:var(--p-highlight);
+.s-hightlight-text {
+    color: var(--s-highlight);
+}
+
+.highlighted-icon {
+    color: var(--p-highlight);
+}
+
+/* global styling for grey content containers */
+.rounded-rectangle-container {
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+    background: var(--light-background);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.rounded-rectangle-container p {
+    padding-bottom: 2rem;
+}
+
+.display-none {
+    display: none;
 }
 
 /* Header Section */
@@ -230,23 +257,8 @@ main {
     min-height: 200px;
 }
 
-.rounded-rectangle-container {
-    display: flex;
-    margin: 0 1rem;
-    padding: 2rem 1rem;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-    border-radius: 32px;
-    background: var(--light-background);
-}
-
 #differences h3 {
     padding: 1rem 0;
-}
-
-.rounded-rectangle-container p {
-    padding-bottom: 2rem;
 }
 
 .bold-paragraph {
@@ -389,10 +401,6 @@ main {
     padding: 2rem;
 }
 
-.blue-text {
-    color: var(--s-highlight);
-}
-
 .newsletter-button {
     width: 190px;
     margin-left: auto;
@@ -423,10 +431,6 @@ form {
     align-items: center;
     margin: 1rem;
     padding: 2rem 1rem;
-}
-
-.display-none {
-    display: none;
 }
 
 input[type=email] {
