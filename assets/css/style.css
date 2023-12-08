@@ -538,6 +538,10 @@ body>footer {
     input[type=email] {
         min-width: unset;
     }
+
+    #hero-image {
+        min-height: 270px;
+    }
 }
 
 /* Media query: tablets and Phones (570 and down) */
