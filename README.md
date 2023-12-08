@@ -302,7 +302,7 @@ This also means that the user won't receive any newsletter updates via email con
 
 The limited functionality of the signup form is implemented as follows:
 
-```
+``` html
                 <form id="signup-form" action="subscribed.html">
                     <input type="email" id="email" name="email" placeholder="your@email.here" required>
                     <input type="submit" value="Sign up now">
@@ -329,7 +329,7 @@ The Gallery Page displays a couple of pictures on the topic of Table Tennis vs. 
 The Gallery was styled using a responsive vertical masonry style pattern. The code for the gallery is heavily adapted from [w3bits.com](https://w3bits.com/flexbox-masonry/).
 
 The vertical masonry is acheived using flexbox.
-```
+``` css
     .masonry-gallery {
         flex-wrap: wrap;
         max-height: 2190px;
@@ -367,7 +367,7 @@ The website is designed to be responsive and can adapt to different screen sizes
 ###### Pop-up menu and signup form on mobile
 The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from the [love running project by code institute](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu). Below is the html and css for the signup form popup functionality:
 
-```
+``` html
 		<input type="checkbox" id="signup-toggle" name="signup-toggle">
 		<label for="signup-toggle" aria-label="Open Signup input Field">
 			<span class="hero-button newsletter-button">Get our Newsletter</span>
@@ -377,7 +377,7 @@ The navigation menu and the signup form are not visible at first on smaller scre
 		</form>
 ```
 [click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/f58acad437c0de227ef2afa16788f7ac63c33537/index.html#L256-L264)
-```
+``` css
                 /* Signup toggle */
                 #signup-toggle:checked~#signup-form {
                     display: flex;
@@ -399,7 +399,7 @@ To reduce scrolling and to make the website a bit more interesting the quotes se
 The code for this feature is adapted from a project on codepen.io by [maheshambure21](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100).
 
 The functionality is acheived using radio buttons and an animation:
-```
+``` css
     .slider__nav:checked {
         animation: check 0.4s linear forwards;
     }
