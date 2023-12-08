@@ -60,7 +60,7 @@ a {
     color: var(--p-highlight);
 }
 
-/* global styling for grey content containers */
+/* global styling for round rectangle containers */
 .rounded-rectangle-container {
     margin: 0 1rem;
     padding: 2rem 1rem;
@@ -96,25 +96,25 @@ header {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* Make Logo appear more interesting by lowering the letter spacing */
+
 .logo {
+    /* Make Logo appear more interesting by lowering the letter spacing */
     letter-spacing: -2px;
     color: var(--p-text);
 }
 
-/* Navbar styles with dropdown toggle 
-THIS SECTION IS ALSO TAKEN FROM LOVE RUNNING and slightly adapted*/
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: var(--white-backgorund);
     width: 80%;
     right: 0;
+    top: 100%;
     padding: 0 1rem;
     border-radius: 0 0 5px 5px;
+    background-color: var(--white-backgorund);
     box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* hide Navigation dropdown until opened */
     display: none;
-    top: 100%;
 }
 
 #menu {
@@ -128,11 +128,11 @@ nav {
 
 #menu a {
     padding: 1rem 2rem;
+    border-radius: 2rem;
     text-decoration: none;
     color: var(--p-text);
     font-size: 1.5rem;
     font-weight: 500;
-    border-radius: 2rem;
 }
 
 .active {
@@ -150,7 +150,7 @@ ul li a#nav-subscribe-button {
     margin-top: 1rem;
 }
 
-/* Selects only Home and Gallery links attr: https: //stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one */
+/* Selects only Home and Gallery links */
 #menu li:nth-child(-n+2)>a:hover {
     background-color: var(--light-background);
 }
@@ -202,14 +202,11 @@ main {
 }
 
 #hero-text {
-    margin-top: 2rem;
-    /* Bug: cant center align div over a picture with a line that isnt exactly in the center ... */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2rem auto;
+    text-align: left;
     display: flex;
     justify-content: center;
     gap: 3rem;
-    text-align: left;
 }
 
 #hero-text>p {
@@ -224,7 +221,7 @@ main {
     font-size: 2rem;
     font-weight: 700;
     line-height: 90%;
-    color: #ffffff;
+    color: var(--s-text);
 }
 
 #hero-bottom-container {
@@ -276,10 +273,10 @@ main {
 }
 
 .timeline-element-container {
-    display: flex;
-    align-items: stretch;
     max-width: 100%;
     margin: 0 1rem;
+    display: flex;
+    align-items: stretch;
 }
 
 .timeline-figure>img {
@@ -291,6 +288,7 @@ main {
     font-style: italic;
 }
 
+/* Vertical line on the left of the timeline Section */
 .line-container {
     flex: 0 0 50px;
     display: flex;
@@ -304,6 +302,7 @@ main {
     border: medium solid var(--dark-backgrond);
 }
 
+/* Make the end Sections of the timeline rounded */
 .line-top-element {
     border-radius: 3px 3px 0 0;
 }
@@ -357,12 +356,12 @@ main {
     margin: 2rem;
     padding: 2rem 2rem;
     border-radius: 32px;
-    display: flex;
     flex: 1;
+    background-color: var(--light-background);
+    display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--light-background);
 }
 
 .slider__image {
@@ -403,44 +402,45 @@ main {
 
 .newsletter-button {
     width: 190px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: var(--p-highlight);
     color: var(--p-text);
 }
 
-label > .newsletter-button:hover {
+label>.newsletter-button:hover {
     background-color: var(--dark-backgrond);
     color: var(--s-text);
 }
 
 #signup-picture {
     background: url(../images/signup-picture.webp) no-repeat center center/cover;
+    /* hide the signup Picture on Mobile screens */
     display: none;
 }
 
 /* Signup Form */
 #signup-form {
+    /* Signup Form is hidden until opened with Signup Toggle */
     display: none;
 }
 
 form {
+    margin: 1rem;
+    padding: 2rem 1rem;
     background-color: var(--light-background);
     border-radius: 32px;
     display: flex;
     align-items: center;
-    margin: 1rem;
-    padding: 2rem 1rem;
 }
 
 input[type=email] {
     min-width: 350px;
+    height: 60px;
     padding: 15px;
     border-radius: 1rem 0 0 1rem;
     border: none;
     background: var(--s-text);
     font-size: 1rem;
-    height: 60px;
 }
 
 input[type=email]:focus {
@@ -449,13 +449,13 @@ input[type=email]:focus {
 }
 
 input[type=submit] {
-    background-color: var(--dark-backgrond);
-    color: var(--s-text);
-    font-size: 1.5rem;
-    font-weight: 700;
-    border: none;
     padding: 1rem 2rem;
     border-radius: 0 2rem 2rem 0;
+    background-color: var(--dark-backgrond);
+    color: var(--s-text);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 /* Signup toggle */
@@ -464,6 +464,7 @@ input[type=submit] {
 }
 
 #signup-toggle {
+    /* Only show Signup Toggle on smaller Screens */
     display: none;
 }
 
@@ -475,12 +476,12 @@ input[type=submit] {
 }
 
 .paragraph-subtitle {
-    text-align: center;
     padding-bottom: 2rem;
+    text-align: center;
     font-weight: 700;
 }
 
-/* Masonry styling for Gallery. Adapted from https://w3bits.com/flexbox-masonry/ */
+/* Masonry styling for Gallery. */
 .masonry-gallery {
     display: flex;
     flex-direction: column;
@@ -488,8 +489,8 @@ input[type=submit] {
 
 .masonry-brick>img {
     width: 100%;
-    object-fit: cover;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 /* Signup Page */
@@ -505,22 +506,21 @@ input[type=submit] {
 
 /* Footer */
 body>footer {
-    display: flex;
     padding: 10px 16px;
-    justify-content: space-between;
-    align-items: center;
     background-color: var(--dark-backgrond);
     color: var(--s-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Styling for Socials adapted from Love Running by Code Institute */
 #social-networks {
     text-align: center;
     padding: 20px 0;
+    list-style-type: none;
     display: flex;
     gap: 1rem;
     justify-content: space-evenly;
-    list-style-type: none;
 }
 
 #social-networks i {
@@ -529,23 +529,27 @@ body>footer {
     color: var(--s-light-background);
 }
 
-/* Media query: mid to small Phones (400 and down) */
+/* Media query: mid to small Mobiles (400 and down) */
 @media screen and (max-width: 400px) {
     h2 {
+        /* Smaller Headers on smaller Mobiles */
         font-size: 2rem;
     }
 
     input[type=email] {
+        /* Allow Email input to go below min-width on small Mobiles (might cut off longer emails) */
         min-width: unset;
     }
 
     #hero-image {
+        /* Allow shorter Hero image on smaller phones so the Call to Action Button below is still visible */
         min-height: 270px;
     }
 }
 
 /* Media query: tablets and Phones (570 and down) */
 @media screen and (max-width: 570px) {
+    /* Display Signup Form vertically on smaller Mobiles */
     #signup-form {
         flex-direction: column;
         gap: 1rem;
@@ -559,25 +563,25 @@ body>footer {
 /* Media query: tablets and Phones (768 and down) */
 @media screen and (max-width: 768px) {
 
-    /* Slider Qutoes Section adapted from: https: //codepen.io/maheshambure21/pen/qZZrxy?editors=1100 */
+    /* Slider Qutoes Section */
     .slider {
         min-height: 500px;
         flex-wrap: wrap;
     }
 
     .slider__nav {
-        display: flex;
+        z-index: 10;
         width: 48px;
         height: 48px;
         margin: 2rem 12px;
         border-radius: 50%;
-        z-index: 10;
         outline: 24px solid var(--s-light-background);
         outline-offset: -24px;
         box-shadow: 0 0 0 0 #333333, 0 0 0 0 rgba(51, 51, 51, 0);
         cursor: pointer;
-        appearance: none;
         backface-visibility: hidden;
+        appearance: none;
+        display: flex;
     }
 
     .slider__nav:checked {
@@ -640,19 +644,18 @@ body>footer {
     nav {
         display: block;
         position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        border-radius: 0;
         top: 0;
+        width: fit-content;
         padding: 0;
+        border-radius: 0;
+        box-shadow: none;
     }
 
     #menu {
+        padding: 0;
         display: flex;
         align-items: center;
         gap: 1rem;
-        padding: 0;
     }
 
     .separated-nav-element {
@@ -670,9 +673,9 @@ body>footer {
 
     #hero-bottom-container {
         width: 90vw;
+        padding: 2rem 0;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2rem 0;
     }
 
     .hero-text-style {
@@ -708,10 +711,10 @@ body>footer {
 
     /* Signup Section */
     #signup-section {
+        padding: 0;
         display: flex;
         justify-content: space-between;
         align-items: stretch;
-        padding: 0;
     }
 
     #signup-text {
@@ -745,8 +748,8 @@ body>footer {
 
     .masonry-brick>img {
         width: 100%;
-        object-fit: cover;
         border-radius: 12px;
+        object-fit: cover;
     }
 }
 
@@ -755,6 +758,7 @@ body>footer {
 
     /* Gallery Section */
     .masonry-gallery {
+        /* increase Gallery height on bigger screens */
         max-height: 2390px;
     }
 }
@@ -765,7 +769,7 @@ body>footer {
     /* Hero Section */
     #hero {
         flex-direction: row;
-        margin: 5rem 3rem 3rem 3rem
+        margin: 5rem 3rem 3rem 3rem;
     }
 
     #hero-bottom-container {
@@ -798,10 +802,12 @@ body>footer {
 
     /* Gallery Section */
     .masonry-gallery {
+        /* restrict gallery height because there are more columns */
         max-height: 1600px;
     }
 
     .masonry-brick {
+        /* Allow for 3 Columns */
         width: 33%;
     }
 }
@@ -809,6 +815,7 @@ body>footer {
 /* Media query for slider-quotes Section 1256px and up */
 @media screen and (min-width: 1256px) {
     .slider {
+        /* Shorten height of slider quotes Section once quotes don't wrap anymore */
         min-height: 500px;
     }
 }
@@ -820,12 +827,13 @@ body>footer {
     #differences {
         padding: 0 3rem;
         display: flex;
+        /* Display Section Divider as Picture to the right on big screens */
         flex-direction: row-reverse;
         gap: 3rem;
     }
 
     #differences h2 {
-        padding: 0 0 2rem 0;
+        padding-bottom: 2rem;
     }
 
     #differences-text-container {
