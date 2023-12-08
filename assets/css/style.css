@@ -405,11 +405,10 @@ form {
     align-items: center;
     margin: 1rem;
     padding: 2rem 1rem;
-    max-width: 600px;
 }
 
 input[type=email] {
-    min-width: 300px;
+    min-width: 350px;
     padding: 15px;
     border-radius: 1rem 0 0 1rem;
     border: none;
@@ -682,7 +681,7 @@ body>footer {
     }
 
     #signup-text {
-        flex-grow: 3;
+        flex: 1 0 350px;
     }
 
     input[type=submit]:hover {
@@ -692,8 +691,7 @@ body>footer {
 
     #signup-picture {
         display: block;
-        width: 50vw;
-        flex-grow: 1;
+        flex: 1 1 100px;
     }
 
     /* Gallery Section */
