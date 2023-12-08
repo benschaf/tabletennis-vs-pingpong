@@ -407,6 +407,10 @@ form {
     padding: 2rem 1rem;
 }
 
+.display-none {
+    display: none;
+}
+
 input[type=email] {
     min-width: 350px;
     padding: 15px;
