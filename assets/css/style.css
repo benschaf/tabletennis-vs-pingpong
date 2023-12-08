@@ -32,6 +32,14 @@ a {
     color: #ffffff;
 }
 
+.highlight-text {
+    font-weight: 500;
+}
+
+.green-icon {
+    color: #29c926;
+}
+
 /* Header Section */
 header {
     position: fixed;
