@@ -529,7 +529,6 @@ You can fork this repository by using the following steps:
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| head |How to write meta tags for search engines|
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| navigation bar and signup-section |Navigation bar and Newsletter form that toggle in and out of view|
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| footer |Display links to socials in footer using Fontawesome and Flexbox|
-
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| whole site | how to use the `*` selector in CSS to override default browser styles |
 |[Favicon Generator](https://www.favicon-generator.org)| Favicon |turn Fontawesome icon into favicon files|
 |[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)| theme-color meta tag|change the theme color on phone browsers|
