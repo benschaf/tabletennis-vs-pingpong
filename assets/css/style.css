@@ -529,10 +529,14 @@ body>footer {
     color: var(--s-light-background);
 }
 
-/* Media query: small Phones (375 and down) */
-@media screen and (max-width: 375px) {
+/* Media query: mid to small Phones (400 and down) */
+@media screen and (max-width: 400px) {
     h2 {
         font-size: 2rem;
+    }
+
+    input[type=email] {
+        min-width: unset;
     }
 }
 
