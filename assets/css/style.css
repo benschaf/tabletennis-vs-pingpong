@@ -549,6 +549,7 @@ body>footer {
 
 /* Media query: tablets and Phones (570 and down) */
 @media screen and (max-width: 570px) {
+
     /* Display Signup Form vertically on smaller Mobiles */
     #signup-form {
         flex-direction: column;
@@ -797,7 +798,7 @@ body>footer {
     }
 }
 
-/* costum Media query for Gallery 1170px and up */
+/* costum Media query 1170px and up */
 @media screen and (min-width: 1170px) {
 
     /* Gallery Section */
@@ -844,5 +845,10 @@ body>footer {
     #section-divider-differences {
         flex: 1 0 0;
         border-radius: 32px;
+    }
+
+    /* Subscribed Section */
+    .restrict-width {
+        max-width: 80%;
     }
 }
