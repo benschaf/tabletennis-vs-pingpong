@@ -529,6 +529,8 @@ You can fork this repository by using the following steps:
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| head |How to write meta tags for search engines|
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| navigation bar and signup-section |Navigation bar and Newsletter form that toggle in and out of view|
 |[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| footer |Display links to socials in footer using Fontawesome and Flexbox|
+
+|[Code Institute](https://github.com/Code-Institute-Org/love-running-2.0)| whole site | how to use the `*` selector in CSS to override default browser styles |
 |[Favicon Generator](https://www.favicon-generator.org)| Favicon |turn Fontawesome icon into favicon files|
 |[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color)| theme-color meta tag|change the theme color on phone browsers|
 |[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)| quotes-section |semantic and accessible HTML for quotations including a way to cite|
@@ -537,7 +539,6 @@ You can fork this repository by using the following steps:
 | [Tim Nelson](https://github.com/TravelTimN) and  [W3C](https://www.w3.org/TR/WCAG20-TECHS/H76.html) | subscribed page | how to automatically redirect to a different page after a period of time |
 |[Stack Overflow](https://stackoverflow.com/questions/8821193/nth-child-or-first-child-how-to-select-first-and-second-child-in-one)| navigation bar | How to select only first and second child |
 |[w3bits.com](https://w3bits.com/flexbox-masonry/) | gallery page | how to code a vertical masonry style gallery |
-| [Love Running by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0) | main site | how to override styles added by the browser |
 |[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior) | main site | how to scroll smoothly to a section by clicking a link |
 |[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | main site | code responsive designs using flexbox (thanks go to Code Institute for mentioning this awesome source) |
 | [W3schools](https://www.w3schools.com/css/css_align.asp) | main site | how to center a div |
@@ -545,6 +546,7 @@ You can fork this repository by using the following steps:
 | [W3schools](https://www.w3schools.com/css/css_form.asp) | input form | how to address form inputs in CSS |
 | [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) | main site | how to add different kinds of media queries i.e. `min-width` and `max-width` properties|
 | [codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100) | quotes section (only on mobile size) | how to do the functionality of the slider-quotes section |
+| [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) | whole site | how to use reusable styles throughout the site |
 
 ### Media
 | Source | Location | filename | Notes |
