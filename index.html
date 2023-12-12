@@ -23,7 +23,7 @@
 <body>
     <!-- Header Section with Text-logo and Navigation bar -->
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to Clickball homepage">
             <h1 class="logo">Clickball</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="Open Navigation bar">
@@ -32,9 +32,10 @@
         </label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li class="separated-nav-element"><a href="#signup-section" id="nav-subscribe-button">Subscribe</a></li>
+                <li><a href="index.html" class="active" aria-label="Go to Clickball homepage">Home</a></li>
+                <li><a href="gallery.html" aria-label="View gallery">Gallery</a></li>
+                <li class="separated-nav-element"><a href="#signup-section" id="nav-subscribe-button"
+                        aria-label="Go to subscription Section">Subscribe</a></li>
             </ul>
         </nav>
     </header>
