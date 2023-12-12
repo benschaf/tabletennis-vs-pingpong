@@ -576,11 +576,13 @@ You can fork this repository by using the following steps:
 | --- | --- | --- |
 |[The Guardian: What is the difference between pingpong and table tennis?](https://www.theguardian.com/notesandqueries/query/0,5753,-25477,00.html)| quotes section |Content for the Quotes Section|
 
-### Regrets (Version Control)
+### Version Control (Regrets and improvements)
 Since this is my first project using version control, the first half of the commit messages aren't written very carefully. Quite often the title of messages goes over the 50 character limit and the imperative mode isn't always used. I was already too far into the project when I found out that commit messages cannot be edited after pushing them to github.
 
 After consultation about this with my mentor, I made sure to study Chris Beams's 
 [How to Write a Git Commit Message](https://cbea.ms/git-commit/) and adhere to the principles layed out in that document.
+
+Later on in the project I switched my Issue Tracking from Notion (using a Kanban Board) to Github Issues and further adapted commit messages that were relevant to certain issues with the issue id. For example: "feat: add awesome feature closes #123".
 
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
