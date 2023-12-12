@@ -48,8 +48,10 @@ a {
     color: var(--s-text);
 }
 
-.highlight-text {
+.inline-link {
     font-weight: 500;
+    color: var(--dark-backgrond);
+    text-decoration: underline;
 }
 
 .s-hightlight-text {
