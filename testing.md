@@ -66,7 +66,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Home | Gallery | Subscribed | Notes |
 | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-gallery.png) | ![screenshot](documentation/responsive-mobile-subscribed.png) | Works as expected |
+| Mobile (DevTools: iPhone 12 Pro) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-gallery.png) | ![screenshot](documentation/responsive-mobile-subscribed.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-gallery.png) | ![screenshot](documentation/responsive-tablet-subscribed.png) |  Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-gallery.png) | ![screenshot](documentation/responsive-desktop-subscribed.png) | Works as expected |
 | 4K Monitor | ![screenshot](documentation/responsive-4k-home.png) | ![screenshot](documentation/responsive-4k-gallery.png) | ![screenshot](documentation/responsive-4k-subscribed.png) | Noticeable scaling issues |
