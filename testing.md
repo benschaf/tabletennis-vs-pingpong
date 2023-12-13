@@ -53,35 +53,13 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ## Lighthouse Audit
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-## my stuff:
-I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in chrome devtools.
-![Lighthouse Report](documentation/images/lighthouse-report.png)
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/images/testing/lighthouse-home-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-home-desktop.png) | Some minor warnings |
-| About | ![screenshot](documentation/images/testing/lighthouse-gallery-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-gallery-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/images/testing/lighthouse-subscribed-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-subscribed-desktop.png) | Slow response time due to large images |
+| Home | ![screenshot](documentation/images/testing/lighthouse-home-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-home-desktop.png) | Slow response time due to large hero image  |
+| Gallery | ![screenshot](documentation/images/testing/lighthouse-gallery-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+| Subscribed | ![screenshot](documentation/images/testing/lighthouse-subscribed-mobile.png) | ![screenshot](documentation/images/testing/lighthouse-subscribed-desktop.png) | warning because of automatic redirect. |
 
 ## User Story Testing
 
