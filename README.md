@@ -259,41 +259,39 @@ Footer
 
 ### Existing Features
 
-#### Website Pages and Sections
-
-##### [Header with Logo and Navigation 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L24-L43)
+#### [Header with Logo and Navigation 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L24-L43)
 The website has a header navigation bar that allows users to easily navigate to different sections of the site. The last item of the navigation bar serves as a cta (call to action) for the user to subscribe to the [newsletter](#signup-section).
 
 ![screenshot-header](/documentation/images/screenshots/screenshot-header.png)
 
-##### [Landing Page 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html)
+#### [Landing Page 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html)
 The Landing page `index.html` gives the user an extensive overview over the topic. It starts with a hero section and a call to action at the top. After that the user discovers information in bite sized sections by scrolling further down. All sections of the Landing page are presented below.
 
 ![screencast-landing-page](/documentation/images/screenshots/screnncast-landing-page.gif)
 
-##### [Hero Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L47-L62)
+#### [Hero Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L47-L62)
 The website has a hero section with an image and text that introduces the site and its purpose.
 The hero section also includes a visible call to action button which links to the [Signup Section](#signup-section).
 
 ![screenshot-hero](/documentation/images/screenshots/screenshot-hero.png)
 
-##### [Differences Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L63-L102)
+#### [Differences Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L63-L102)
 The Differences section lays out initial information about the differences between Table Tennis and Ping Pong. It also describes what the term 'Clickball' means.
 This section is accompanied by an image to generate some interest in this part of the page.
 
 ![screenshot-differences](/documentation/images/screenshots/screenshot-differences.png)
 
-##### [Timeline Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L103-L201)
+#### [Timeline Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L103-L201)
 The website has a timeline section that displays important events in a chronological order. The timeline is designed in a visually interesting and intuitive way by displaying a vertical timeline next to visually separated events.
 
 ![screenshot-timeline](/documentation/images/screenshots/screenshot-timeline.png)
 
-##### [Quotes Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L202-L248)
+#### [Quotes Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L202-L248)
 The website has a quotes section that displays quotes from users. The quotes are only static at this stage of development which means that they are directly coded into the `index.html` file.
 
 ![screenshot-quotes](/documentation/images/screenshots/screenshot-quotes.png)
 
-##### [Signup Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L249-L267)
+#### [Signup Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L249-L267)
 The website has a signup form that allows users to subscribe to a newsletter or other updates. The only function of the signup form at this stage is that it links to the `subscribed.html` page. The email entered into the form isn't stored anywhere.
 This also means that the user won't receive any newsletter updates via email contrary to what is suggested on the website.
 
@@ -311,7 +309,7 @@ The `method` attribute of the `form` tag was omitted. This basically turns the s
 
 ![screenshot-signup](/documentation/images/screenshots/screenshot-signup.png)
 
-##### [Signup Successful Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/subscribed.html)
+#### [Signup Successful Section 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/subscribed.html)
 Once the user inserts an email and submits the form, they are redirected to the `subscribed.html` page. There they receive a quick message that they have successfully subscribed. After 10 seconds the website redirects the user automatically back to the Signup Section.
 
 The automatic redirect is acheived using the following code on line 21 in `subscribed.html`:
@@ -321,7 +319,7 @@ The automatic redirect is acheived using the following code on line 21 in `subsc
 
 ![screenshot-signedup](/documentation/images/screenshots/screenshot-signedup.png)
 
-##### [Gallery Page 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/gallery.html)
+#### [Gallery Page 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/gallery.html)
 The Gallery Page displays a couple of pictures on the topic of Table Tennis vs. Ping Pong. The user can spend some time here gathering impressions.
 The Gallery was styled using a responsive vertical masonry style pattern. The code for the gallery is heavily adapted from [w3bits.com](https://w3bits.com/flexbox-masonry/).
 
@@ -351,17 +349,15 @@ The vertical masonry is acheived using flexbox.
 
 ![screencast-gallery](/documentation/images/screenshots/screencast-gallery.gif)
 
-##### [Footer 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L269-L295)
+#### [Footer 🔗](https://github.com/benschaf/tabletennis-vs-pingpong/blob/6a418b11362ddfb6daa11785b437b07b81038081/index.html#L269-L295)
 The website has a footer that includes social media links and other relevant information.
 
 ![screenshot-footer](/documentation/images/screenshots/screenshot-footer.png)
 
-#### Additional Features
-
-##### Responsive Design
+#### Responsive Design
 The website is designed to be responsive and can adapt to different screen sizes, making it easy to use on mobile devices.
 
-###### Pop-up menu and signup form on mobile
+##### Pop-up menu and signup form on mobile
 The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from the [love running project by code institute](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu). Below is the html and css for the signup form popup functionality:
 
 ``` html
@@ -390,7 +386,7 @@ The navigation menu and the signup form are not visible at first on smaller scre
 
 ![screencast-nav-toggle](/documentation/images/screenshots/screencast-nav-toggle.gif)
 
-###### Animated Quotes Section on mobile
+##### Animated Quotes Section on mobile
 To reduce scrolling and to make the website a bit more interesting the quotes section is animated when viewed on mobile screens. By clicking on one of the buttons below the quote, a corresponding quote slides into view.
 
 The code for this feature is adapted from a project on codepen.io by [maheshambure21](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100).
@@ -440,7 +436,7 @@ The functionality is acheived using radio buttons and an animation:
 
 ![screencast-quotes-slider](/documentation/images/screenshots/screencast-quotes-slider.gif)
 
-###### Max Width and Background Colour
+##### Max Width and Background Colour
 The website restricts the width of the main section to 1600px for readability and centers it if it gets too large.
 The website has a background color of `#f3f3f3`.
 
