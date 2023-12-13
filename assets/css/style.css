@@ -540,7 +540,7 @@ body>footer {
 
     input[type=email] {
         /* Allow Email input to go below min-width on small Mobiles (might cut off longer emails) */
-        min-width: unset;
+        min-width: 270px;
     }
 
     #hero-image {
