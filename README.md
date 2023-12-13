@@ -474,6 +474,7 @@ The website has a background color of `#f3f3f3`.
 - [Github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues) used for issue tracking (replaced Notion during the project)
 
 ## Testing
+Code Validation and Testing can be found in a separate file called [testing.md](testing.md)
 
 ## Deployment
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
