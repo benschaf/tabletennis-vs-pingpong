@@ -10,7 +10,7 @@ This repository provides an engaging and informative platform that explores the 
 The UX planning process was separated into three phases:
 1. **Collecting inspiration:** Design ideas for the project were taken from the following two websites: store.google.com and youtube.com. The resulting design for this website is kept clean and simple.
 2. **Creating User Stories, Wireframes and Mockups:** These were prepared in order to create a better vision of the final project. These drafts were then tailored to provide a relevant and meaningufl exprecience to the user.
-3. **Collecting feedback early on:** My Mentor and the great Community of Code Institute were essential in ironing out UX considerations that I hadn't considered. For Acknowledgements see ["Acknowledgements"](###Acknowledgements).
+3. **Collecting feedback early on:** My Mentor and the great Community of Code Institute were essential in ironing out UX considerations that I hadn't considered.
 
 UX research practices werent in the scope of this project.
 
