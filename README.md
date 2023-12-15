@@ -64,190 +64,52 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 ## Wireframes
 Wireframes were created using draw.io. Aditionally I created mockups of the website using [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) which helped immensly with translating the design ideas to responsive CSS code.
 
-### draw.io Wireframes
-
-#### Mobile Wireframes
-<details>
-<summary> Click here to see the Mobile Wireframes </summary>
-
-Hero
-
-![mobile-hero](documentation/images/wireframes/mobile-hero.png)
-
-Differences
-
-![mobile-differences](documentation/images/wireframes/mobile-differences.png)
-
-Timeline
-
-![mobile-timeline](documentation/images/wireframes/mobile-timeline.png)
-
-Quotes
-
-![mobile-quotes](documentation/images/wireframes/mobile-quotes.png)
-
-Sign-up
-
-![mobile-signup](documentation/images/wireframes/mobile-signup.png)
-
-Footer
-
-![mobile-footer](documentation/images/wireframes/mobile-footer.png)
-
-</details>
-
-#### Tablet Wireframes
-<details>
-<summary> Click here to see the Tablet Wireframes </summary>
-
-Hero
-
-![tablet-hero](documentation/images/wireframes/tablet-hero.png)
-
-Differences
-
-![tablet-differences](documentation/images/wireframes/tablet-differences.png)
-
-Timeline
-
-![tablet-timeline](documentation/images/wireframes/tablet-timeline.png)
-
-Quotes
-
-![tablet-quotes](documentation/images/wireframes/tablet-quotes.png)
-
-Sign-up
-
-![tablet-signup](documentation/images/wireframes/tablet-signup.png)
-
-Footer
-
-![tablet-footer](documentation/images/wireframes/tablet-footer.png)
-
-</details>
-
-#### Desktop Wireframes
-<details>
-<summary> Click here to see the Desktop Wireframes </summary>
-
-Hero
-
-![desktop-hero](documentation/images/wireframes/desktop-hero.png)
-
-Differences
-
-![desktop-differences](documentation/images/wireframes/desktop-differences.png)
-
-Timeline
-
-![desktop-timeline](documentation/images/wireframes/desktop-timeline.png)
-
-Quotes
-
-![desktop-quotes](documentation/images/wireframes/desktop-quotes.png)
-
-Sign-up
-
-![desktop-signup](documentation/images/wireframes/desktop-signup.png)
-
-Footer
-
-![desktop-footer](documentation/images/wireframes/desktop-footer.png)
-
-</details>
-
-### [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) Design mockups
-Note that the Figma mockups don't look exactly like the final product since I only used them for initial implementation of the code. They represent an earlier version of the site. For later design changes I adapted the wireframes made with draw.io above.
+*Note that the Figma mockups don't look exactly like the final product since I only used them for initial implementation of the code. They represent an earlier version of the site. For later design changes I adapted the wireframes made with draw.io above.*
 
 [Click here](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) to view the Figma project.
 
-#### Mobile Mockups
+### Mobile Wireframes and Mockups
 <details>
-<summary> Click here to see the Mobile Mockups </summary>
+<summary> Click here to see the Mobile Wireframes </summary>
 
-Hero
-
-![mobile-hero](documentation/images/figma-mockups/mobile-hero.png)
-
-Differences
-
-![mobile-differences](documentation/images/figma-mockups/mobile-differences.png)
-
-Timeline
-
-![mobile-timeline](documentation/images/figma-mockups/mobile-timeline.png)
-
-Quotes
-
-![mobile-quotes](documentation/images/figma-mockups/mobile-quotes.png)
-
-Sign-up
-
-![mobile-signup](documentation/images/figma-mockups/mobile-signup.png)
-
-Footer
-
-![mobile-footer](documentation/images/figma-mockups/mobile-footer.png)
+| Section | Wireframe (draw.io) | Mockup (Figma) |
+|-|-|-|
+| Hero | ![mobile-hero](documentation/images/wireframes/mobile-hero.png) | ![mobile-hero](documentation/images/figma-mockups/mobile-hero.png) |
+| Differences | ![mobile-differences](documentation/images/wireframes/mobile-differences.png) | ![mobile-differences](documentation/images/figma-mockups/mobile-differences.png) |
+| Timeline | ![mobile-timeline](documentation/images/wireframes/mobile-timeline.png) | ![mobile-timeline](documentation/images/figma-mockups/mobile-timeline.png) |
+| Quotes | ![mobile-quotes](documentation/images/wireframes/mobile-quotes.png) | ![mobile-quotes](documentation/images/figma-mockups/mobile-quotes.png) |
+| Sign-up | ![mobile-signup](documentation/images/wireframes/mobile-signup.png) | ![mobile-signup](documentation/images/figma-mockups/mobile-signup.png) |
+| Footer | ![mobile-footer](documentation/images/wireframes/mobile-footer.png) | ![mobile-footer](documentation/images/figma-mockups/mobile-footer.png) |
 
 </details>
 
-#### Tablet Mockups
+### Tablet Wireframes and Mockups
 <details>
-<summary> Click here to see the Tablet Mockups </summary>
+<summary> Click here to see the Tablet Wireframes </summary>
 
-Hero
-
-![tablet-hero](documentation/images/figma-mockups/tablet-hero.png)
-
-Differences
-
-![tablet-differences](documentation/images/figma-mockups/tablet-differences.png)
-
-Timeline
-
-![tablet-timeline](documentation/images/figma-mockups/tablet-timeline.png)
-
-Quotes
-
-![tablet-quotes](documentation/images/figma-mockups/tablet-quotes.png)
-
-Sign-up
-
-![tablet-signup](documentation/images/figma-mockups/tablet-signup.png)
-
-Footer
-
-![tablet-footer](documentation/images/figma-mockups/tablet-footer.png)
+| Section | Wireframe (draw.io) | Mockup (Figma) |
+|-|-|-|
+| Hero | ![tablet-hero](documentation/images/wireframes/tablet-hero.png) | ![tablet-hero](documentation/images/figma-mockups/tablet-hero.png) |
+| Differences | ![tablet-differences](documentation/images/wireframes/tablet-differences.png) | ![tablet-differences](documentation/images/figma-mockups/tablet-differences.png) |
+| Timeline | ![tablet-timeline](documentation/images/wireframes/tablet-timeline.png) | ![tablet-timeline](documentation/images/figma-mockups/tablet-timeline.png) |
+| Quotes | ![tablet-quotes](documentation/images/wireframes/tablet-quotes.png) | ![tablet-quotes](documentation/images/figma-mockups/tablet-quotes.png) |
+| Sign-up | ![tablet-signup](documentation/images/wireframes/tablet-signup.png) | ![tablet-signup](documentation/images/figma-mockups/tablet-signup.png) |
+| Footer | ![tablet-footer](documentation/images/wireframes/tablet-footer.png) | ![tablet-footer](documentation/images/figma-mockups/tablet-footer.png) |
 
 </details>
 
-#### Desktop Mockups
+### Desktop Wireframes and Mockups
 <details>
-<summary> Click here to see the Desktop Mockups </summary>
+<summary> Click here to see the Desktop Wireframes </summary>
 
-Hero
-
-![desktop-hero](documentation/images/figma-mockups/desktop-hero.png)
-
-Differences
-
-![desktop-differences](documentation/images/figma-mockups/desktop-differences.png)
-
-Timeline
-
-![desktop-timeline](documentation/images/figma-mockups/desktop-timeline.png)
-
-Quotes
-
-![desktop-quotes](documentation/images/figma-mockups/desktop-quotes.png)
-
-Sign-up
-
-![desktop-signup](documentation/images/figma-mockups/desktop-signup.png)
-
-Footer
-
-![desktop-footer](documentation/images/figma-mockups/desktop-footer.png)
+| Section | Wireframe (draw.io) | Mockup (Figma) |
+|-|-|-|
+| Hero | ![desktop-hero](documentation/images/wireframes/desktop-hero.png) | ![desktop-hero](documentation/images/figma-mockups/desktop-hero.png) |
+| Differences | ![desktop-differences](documentation/images/wireframes/desktop-differences.png) | ![desktop-differences](documentation/images/figma-mockups/desktop-differences.png) |
+| Timeline | ![desktop-timeline](documentation/images/wireframes/desktop-timeline.png) | ![desktop-timeline](documentation/images/figma-mockups/desktop-timeline.png) |
+| Quotes | ![desktop-quotes](documentation/images/wireframes/desktop-quotes.png) | ![desktop-quotes](documentation/images/figma-mockups/desktop-quotes.png) |
+| Sign-up | ![desktop-signup](documentation/images/wireframes/desktop-signup.png) | ![desktop-signup](documentation/images/figma-mockups/desktop-signup.png) |
+| Footer | ![desktop-footer](documentation/images/wireframes/desktop-footer.png) | ![desktop-footer](documentation/images/figma-mockups/desktop-footer.png) |
 
 </details>
 
