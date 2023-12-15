@@ -525,7 +525,7 @@ You can fork this repository by using the following steps:
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ### Local vs Deployment
-!!! note what could i write here???
+Note that the Site behaves slightly differently when vieving offline from a cloned repository since icons and fonts are imported from online libraries.
 
 ## Credits
 
