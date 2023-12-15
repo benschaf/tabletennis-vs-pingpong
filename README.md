@@ -470,6 +470,8 @@ The website has a background color of `#f3f3f3`.
 - [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) used to create colour palette
 - [tinypng](https://tinypng.com/) used to compress images
 - [Birme](https://www.birme.net/?no_resize=true&image_format=webp&quality_webp=80) used to convert images to .webp format
+- [Windows Snipping Tool](https://support.microsoft.com/de-de/windows/aufnehmen-von-screenshots-mithilfe-des-snipping-tools-00246869-1843-655f-f220-97299b865f6b) used to take screenshots and screencasts on Windows
+- [Adobe free mp4 to gif converter](https://www.adobe.com/express/feature/video/convert/mp4-to-gif) used to convert screencasts to gif
 - [Notion](https://www.notion.so/) used to create Kanban Board for issue tracking
 - [Github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues) used for issue tracking (replaced Notion during the project)
 
