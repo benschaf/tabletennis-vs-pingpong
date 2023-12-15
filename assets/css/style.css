@@ -178,7 +178,7 @@ ul li a#nav-subscribe-button {
 /* Main Section */
 main {
     /* restrict main section width for readability and center it if it gets too large */
-    width: 100vw;
+    width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     background-color: var(--white-backgorund);
