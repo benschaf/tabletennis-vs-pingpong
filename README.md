@@ -17,14 +17,14 @@ UX research practices werent in the scope of this project.
 ### Colour Scheme
 The Colour Scheme for this Project was extracted from it's [hero image](#tabletennis-vs-pingpong). The blue tones work nicely together with most Table Tennis related Pictures because of the blue color of official Table Tennis tables.
 
-- #FFFFFF used for white background
-- #F3F3F3 used for light background
-- #DDDDDD used for secondary light background
-- #2B2B34 used for dark background
-- #55C2DA used for primary highlights
-- #28798B used for secondary hightlights
-- #000000 used for primary text
-- #FFFFFF used for secondary text
+- `#FFFFFF` used for white background
+- `#F3F3F3` used for light background
+- `#DDDDDD` used for secondary light background
+- `#2B2B34` used for dark background
+- `#55C2DA` used for primary highlights
+- `#28798B` used for secondary hightlights
+- `#000000` used for primary text
+- `#FFFFFF` used for secondary text
 
 I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to generate my colour palette.
 
