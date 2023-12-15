@@ -33,17 +33,17 @@ I used [coolors.co](https://coolors.co/2b2b34-f3f3f3-151526-000000-55c2da) to ge
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
-:root {
-    /* p = Primary / s = Secondary */
-    --white-backgorund: #fff;
-    --light-background: #F3F3F3;
-    --s-light-background: #ddd;
-    --dark-backgrond: #2B2B34;
-    --p-highlight: #55C2DA;
-    --s-highlight: #28798B;
-    --p-text: #000;
-    --s-text: #fff;
-}
+    :root {
+        /* p = Primary / s = Secondary */
+        --white-backgorund: #fff;
+        --light-background: #F3F3F3;
+        --s-light-background: #ddd;
+        --dark-backgrond: #2B2B34;
+        --p-highlight: #55C2DA;
+        --s-highlight: #28798B;
+        --p-text: #000;
+        --s-text: #fff;
+    }
 ```
 
 ### Typography
@@ -298,10 +298,10 @@ This also means that the user won't receive any newsletter updates via email con
 The limited functionality of the signup form is implemented as follows:
 
 ``` html
-                <form id="signup-form" action="subscribed.html">
-                    <input type="email" id="email" name="email" placeholder="your@email.here" required>
-                    <input type="submit" value="Sign up now">
-                </form>
+    <form id="signup-form" action="subscribed.html">
+        <input type="email" id="email" name="email" placeholder="your@email.here" required>
+        <input type="submit" value="Sign up now">
+    </form>
 ```
 [click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/37f5afb3688ce1d25377fb5852d1a6e8771feda2/index.html#L261-L264)
 
@@ -361,24 +361,24 @@ The website is designed to be responsive and can adapt to different screen sizes
 The navigation menu and the signup form are not visible at first on smaller screens. They pop-up, after clicking on a corresponding button. This functionality is achieved using only css. The visibility of the popup changes from `display: none;` to `display: box` and `display: flex;` respectively. This code was adapted from the [love running project by code institute](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu). Below is the html and css for the signup form popup functionality:
 
 ``` html
-		<input type="checkbox" id="signup-toggle" name="signup-toggle">
-		<label for="signup-toggle" aria-label="Open Signup input Field">
-			<span class="hero-button newsletter-button">Get our Newsletter</span>
-		</label>
-		<form id="signup-form" action="subscribed.html"> 
-			<!-- Form content --> 
-		</form>
+    <input type="checkbox" id="signup-toggle" name="signup-toggle">
+    <label for="signup-toggle" aria-label="Open Signup input Field">
+        <span class="hero-button newsletter-button">Get our Newsletter</span>
+    </label>
+    <form id="signup-form" action="subscribed.html"> 
+        <!-- Form content --> 
+    </form>
 ```
 [click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/f58acad437c0de227ef2afa16788f7ac63c33537/index.html#L256-L264)
 ``` css
-                /* Signup toggle */
-                #signup-toggle:checked~#signup-form {
-                    display: flex;
-                }
+    /* Signup toggle */
+    #signup-toggle:checked~#signup-form {
+        display: flex;
+    }
 
-                #signup-toggle {
-                    display: none;
-                }
+    #signup-toggle {
+        display: none;
+    }
 ```
 [click to view code in project](https://github.com/benschaf/tabletennis-vs-pingpong/blob/f58acad437c0de227ef2afa16788f7ac63c33537/assets/css/style.css#L410-L417)
 
