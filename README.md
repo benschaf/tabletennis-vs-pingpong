@@ -52,18 +52,14 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 
 ## User Stories
 
--- can I include user stories that go beyond the scope of the project? --
-
 |As a|I would like to|so that I can|
 |----|----|----|
 |new site user|find information about Table Tennis,|tell my friends about it.|
 |Returning user|Access the latest news and trends in the world of Table Tennis,|Stay informed about the sport.|
-|Table Tennis enthusiast|Find training resources and tips,|Improve my skills and technique.|
-|Table Tennis enthusiast|Find information about the rules and regulations of Table Tennis,|Improve my understanding of the sport.|
 |Ping Pong player|Learn more about the differences between Ping Pong and Table Tennis,|Improve my knowledge of the sport.|
 |Table Tennis player|Access a media gallery with photos and videos of Table Tennis matches,|Enjoy watching Table Tennis matches and highlights.|
-|Table Tennis player|Access a forum where I can connect with other Table Tennis players,|Share tips and advice with other players.|
-|Table Tennis fan|Find merchandise related to Table Tennis,|Show my support for the sport.|
+
+*Note: User stories that aren't in the scope of this version can be found under Future Features.*
 
 ## Wireframes
 Wireframes were created using draw.io. Aditionally I created mockups of the website using [Figma](https://www.figma.com/file/OFxJJWxgwTg3WBurLY3zGF/Ping-Pong-Wireframe?type=design&node-id=0%3A1&mode=design&t=plcfjeSpSSZlJuFL-1) which helped immensly with translating the design ideas to responsive CSS code.
@@ -443,6 +439,17 @@ The website has a background color of `#f3f3f3`.
 ![screencast-max-width](/documentation/images/screenshots/screencast-max-width.gif)
 
 ### Future Features
+
+## Future User stories
+
+|As a|I would like to|so that I can|
+|----|----|----|
+|Table Tennis enthusiast|Find training resources and tips,|Improve my skills and technique.|
+|Table Tennis enthusiast|Find information about the rules and regulations of Table Tennis,|Improve my understanding of the sport.|
+|Table Tennis player|Access a forum where I can connect with other Table Tennis players,|Share tips and advice with other players.|
+|Table Tennis fan|Find merchandise related to Table Tennis,|Show my support for the sport.|
+
+## Future Feature suggestions
 
 - **Improved Subscription Feature**: I think it would be great to add more functionality to the subscription feature. For example, I could allow users to choose the frequency of updates they receive or provide exclusive content to subscribers.
 
