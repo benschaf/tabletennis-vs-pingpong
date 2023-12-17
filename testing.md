@@ -91,16 +91,31 @@ from the respective feature.
 Throughout development I switched the issue tracking from Notion to Github Issues. The Issue tracking system used for each bug is also noted in the table below.
 All recently closed/fixed bugs can be tracked [via github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed).
 
-Certainly! Here's the updated table with the GitHub issue links as the first column:
-
 | **ID / Github Issue** | **Bug** | **Status** |
 | --- | --- | --- |
-| [30](https://github.com/benschaf/tabletennis-vs-pingpong/issues/30) | Fix horizontal scroll bug | Closed yesterday |
+| [30](https://github.com/benschaf/tabletennis-vs-pingpong/issues/30) | Fix horizontal scroll bug | Closed |
 | [18](https://github.com/benschaf/tabletennis-vs-pingpong/issues/18) | Spacing in navigation Bar is off bug | Closed |
 | [17](https://github.com/benschaf/tabletennis-vs-pingpong/issues/17) | Email input too short on small screens bug | Closed |
 | [16](https://github.com/benschaf/tabletennis-vs-pingpong/issues/16) | Lighthouse Validation fix accessibility bug | Closed |
 | [15](https://github.com/benschaf/tabletennis-vs-pingpong/issues/15) | Update Theme Color meta tag on all pages bug | Closed |
 
+| Notion Costum ID | Bug | Solution | Commit hash(es) | Status |
+|-|-|-|-|-|
+|25|Hero section is too tall on laptop screens|adjust hero image picture height to allow for the next picture to be a scroll hint| [623f391](/../../commit/623f3910ba16ebd2d04c164753fd70557f394558) and [a80a0ad](/../../commit/a80a0ad2bf6077d61da9c1f84a061a597b065db0) | Closed |
+|27|Pictures and text can be seen behind header bar|Add white background to header bar|[f138c71](/../../commit/f138c719a15af91506896fbf512943c5cf065b3d)|Closed|
+|31|Cant assign styles to multiple timeline events|change timeline html attributes to classes to allow for multiple timeline bubbles to be created|[2a42ec9](/../../commit/2a42ec91d9174c4ce732545e997d130a5c13f34a)|Closed|
+|37|Styles don't apply on deployed version|change address of stylesheet from static to relative|[5a7f584](/../../commit/5a7f584b7caeb6b8ed27e5aaae0cdf1b958707ed)|Closed|
+|42|Styles don't apply on deployed version|change address of stylesheet from static to relative|[5a7f584](/../../commit/5a7f584b7caeb6b8ed27e5aaae0cdf1b958707ed)|Closed|
+| 44 | Line in timeline section adapts due to flexbox grow/shrink properties | Add value `0` to `flex-grow` and `flex-shrink` to timeline div to prevent resizing| [0d118e8](/../../commit/0d118e87ad8aa93cce293dc29aff55a0f321f706) | Closed |
+| 50 | Making quotes section titles white resulted in all h3 titles getting white | Specify separate styles for h3 titles in quotes section| [8c7e69b](/../../commit/8c7e69b966fecc2169487e53a9881acf8a19cfae) | Closed |
+| 51 | Qutoes section title spells Qutotes instead of quotes | fix quotes title typo | [5b015bf](/../../commit/5b015bf52b0f0183e608aefc05702604a137e45e) | Closed |
+| 56 | Hero section has x-axis overflow on small screens | make hero font smaller to fit on small phones | [8956475](/../../commit/8956475965cf7dd3bbf2d706483829b136074b82) | Closed |
+| 59 | Button tags shouldn't be used just because a link looks like a button | remove unnecessary button tag | [bcaa95f](/../../commit/bcaa95fe48100ec2ac230e5117514ebd864d8627) | Closed |
+| 65 | Footer isn't at the bottom when main section has little content | Add `flex-grow: 1;` to `main` style to enlarge main section if it has too little content |[7bb5fef](/../../commit/7bb5fef0e7b9b81b863849f29370ce9136f0542c)| Closed |
+| 72 | Fontawesome Arrow in Timeline Section is displayed over the Navigation bar | Add `z-index: 9999;` to `header` | [0a0caa7](/../../commit/0a0caa703678f458155e6879dd613929b3cc4de5) and [84a3fc9](/../../commit/84a3fc9237c078838170e94269b4f5a6d2340267) and [96f0e6b](/../../commit/96f0e6ba0472c71924d1231bb3491290fd5bca22) and [81355af](/../../commit/81355afe456ea6403d48b923808bdc16325ae689) |Closed |
+| 75 | email input field is not wide enough for long emails | increase width of email input field | [491b315](/../../commit/491b315fc3d033dcd5a9d42f9325235cd7837190) and [aaab3ff](/../../commit/aaab3fffaef44c136a0bfc665a1a8c715fed0f05) | Closed |
+| 79 | Title letter spacing doesn't apply | fix: change wrong property to letter-spacing| [afdfcf7](/../../commit/afdfcf72b93a05da0ec7cb9bf600fac26ded5a42) | Closed |
+|81| Card in subscribed.html has x-axis overflow | restrict width of card on wide screens | [733e978](/../../commit/733e9781394309a3465e7c53ed65e821e3e125b5)|Closed|
 
 
 ## Unfixed Bugs
