@@ -70,7 +70,7 @@ Wireframes were created using draw.io. Aditionally I created mockups of the webs
 
 ### Mobile Wireframes and Mockups
 <details>
-<summary> Click here to see the Mobile Wireframes </summary>
+<summary> Click here to see the Mobile Wireframes and Mockups </summary>
 
 | Section | Wireframe (draw.io) | Mockup (Figma) |
 |-|-|-|
@@ -85,7 +85,7 @@ Wireframes were created using draw.io. Aditionally I created mockups of the webs
 
 ### Tablet Wireframes and Mockups
 <details>
-<summary> Click here to see the Tablet Wireframes </summary>
+<summary> Click here to see the Tablet Wireframes and Mockups </summary>
 
 | Section | Wireframe (draw.io) | Mockup (Figma) |
 |-|-|-|
@@ -100,7 +100,7 @@ Wireframes were created using draw.io. Aditionally I created mockups of the webs
 
 ### Desktop Wireframes and Mockups
 <details>
-<summary> Click here to see the Desktop Wireframes </summary>
+<summary> Click here to see the Desktop Wireframes and Mockups </summary>
 
 | Section | Wireframe (draw.io) | Mockup (Figma) |
 |-|-|-|
