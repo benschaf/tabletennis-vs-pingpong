@@ -72,10 +72,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
-Throughout development I switched the issue tracking from Notion to Github Issues. The Issue tracking system used for each bug is also noted in the table below.
+Throughout development I switched the issue tracking from Notion to Github Issues. The Bugs section is therefore split up into two tables: one for Github Issues and one for Notion issue tracking.
 All recently closed/fixed bugs can be tracked [via github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed).
 
-| **ID / Github Issue** | **Bug** | **Status** |
+### Github Issues
+More Information about the solution history can be found by clicking on the bug ID.
+| **ID** | **Bug** | **Status** |
 | --- | --- | --- |
 | [30](https://github.com/benschaf/tabletennis-vs-pingpong/issues/30) | Fix horizontal scroll bug | Closed |
 | [18](https://github.com/benschaf/tabletennis-vs-pingpong/issues/18) | Spacing in navigation Bar is off bug | Closed |
@@ -83,7 +85,9 @@ All recently closed/fixed bugs can be tracked [via github Issues](https://github
 | [16](https://github.com/benschaf/tabletennis-vs-pingpong/issues/16) | Lighthouse Validation fix accessibility bug | Closed |
 | [15](https://github.com/benschaf/tabletennis-vs-pingpong/issues/15) | Update Theme Color meta tag on all pages bug | Closed |
 
-| Notion Costum ID | Bug | Solution | Commit hash(es) | Status |
+### Notion Issue tracking
+Commits that are relevant to the bug are linked in the Commit hash(es) column.
+| ID | Bug | Solution | Commit hash(es) | Status |
 |-|-|-|-|-|
 |25|Hero section is too tall on laptop screens|adjust hero image picture height to allow for the next picture to be a scroll hint| [623f391](/../../commit/623f3910ba16ebd2d04c164753fd70557f394558) and [a80a0ad](/../../commit/a80a0ad2bf6077d61da9c1f84a061a597b065db0) | Closed |
 |27|Pictures and text can be seen behind header bar|Add white background to header bar|[f138c71](/../../commit/f138c719a15af91506896fbf512943c5cf065b3d)|Closed|
