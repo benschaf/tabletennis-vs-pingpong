@@ -75,17 +75,21 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 Throughout development I switched the issue tracking from Notion to Github Issues. The Bugs section is therefore split up into two tables: one for Github Issues and one for Notion issue tracking.
 All recently closed/fixed bugs can be tracked [via github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed).
 
+### Github Issues
+
 [Link to this repositories bugs](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
 
-### Github Issues
-More Information about the solution history can be found by clicking on the bug ID.
+![screenshot of closed github issues labeled bugs](documentation/images/testing/issues-isclosed-labelbug.png)
+
+More Information about the solution history can be found by clicking on the bug ID below.
+
 | **ID** | **Bug** | **Status** |
 | --- | --- | --- |
-| [30](https://github.com/benschaf/tabletennis-vs-pingpong/issues/30) | Fix horizontal scroll bug | Closed |
-| [18](https://github.com/benschaf/tabletennis-vs-pingpong/issues/18) | Spacing in navigation Bar is off bug | Closed |
-| [17](https://github.com/benschaf/tabletennis-vs-pingpong/issues/17) | Email input too short on small screens bug | Closed |
-| [16](https://github.com/benschaf/tabletennis-vs-pingpong/issues/16) | Lighthouse Validation fix accessibility bug | Closed |
-| [15](https://github.com/benschaf/tabletennis-vs-pingpong/issues/15) | Update Theme Color meta tag on all pages bug | Closed |
+| [30](https://github.com/benschaf/tabletennis-vs-pingpong/issues/30) | Fix horizontal scroll | Closed |
+| [18](https://github.com/benschaf/tabletennis-vs-pingpong/issues/18) | Spacing in navigation Bar is off | Closed |
+| [17](https://github.com/benschaf/tabletennis-vs-pingpong/issues/17) | Email input too short on small screens | Closed |
+| [16](https://github.com/benschaf/tabletennis-vs-pingpong/issues/16) | Lighthouse Validation fix accessibility | Closed |
+| [15](https://github.com/benschaf/tabletennis-vs-pingpong/issues/15) | Update Theme Color meta tag on all pages | Closed |
 
 ### Notion Issue tracking
 Commits that are relevant to the bug are linked in the Commit hash(es) column.
