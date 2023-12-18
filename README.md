@@ -47,7 +47,7 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 ```
 
 ### Typography
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for all text on the website. `letter-spacing -2px` was used on titles to differentiate them from other text.
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for all text on the website. `letter-spacing: -2px;` was used on titles to differentiate them from other text.
 - [Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
