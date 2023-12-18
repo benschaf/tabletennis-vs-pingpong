@@ -415,8 +415,7 @@ Note that the Site behaves slightly differently when vieving offline from a clon
 | [Love Running by Code Institute](https://github.com/Code-Institute-Org/love-running-2.0) | background pictures | how to position background pictures in a div using `background: url([img-url])no-repeat center center/cover` shorthand |
 | [W3schools](https://www.w3schools.com/css/css_form.asp) | input form | how to address form inputs in CSS |
 | [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) | main site | how to add different kinds of media queries i.e. `min-width` and `max-width` properties|
-| [codepen.io](https://codepen.io/maheshambure21/pen/qZZrxy?editors=1100) | quotes section (only on mobile size) | how to do the functionality of the slider-quotes section |
-| [W3schools](https://www.w3schools.com/css/css3_variables.asp) | whole site | how to use reusable styles throughout the site |
+| [W3schools](https://www.w3schools.com/css/css3_variables.asp) | whole site | how to use `:root`address and variables in css |
 
 ### Media
 | Source | Location | filename | Notes |
