@@ -75,6 +75,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 Throughout development I switched the issue tracking from Notion to Github Issues. The Bugs section is therefore split up into two tables: one for Github Issues and one for Notion issue tracking.
 All recently closed/fixed bugs can be tracked [via github Issues](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed).
 
+[Link to this repositories bugs](https://github.com/benschaf/tabletennis-vs-pingpong/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+
 ### Github Issues
 More Information about the solution history can be found by clicking on the bug ID.
 | **ID** | **Bug** | **Status** |
