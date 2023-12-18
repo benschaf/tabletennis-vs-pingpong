@@ -302,7 +302,7 @@ The website has a background color of `#f3f3f3`.
 
 ### Future Features
 
-## Future User stories
+#### Future User stories
 
 |As a|I would like to|so that I can|
 |----|----|----|
@@ -311,7 +311,7 @@ The website has a background color of `#f3f3f3`.
 |Table Tennis player|Access a forum where I can connect with other Table Tennis players,|Share tips and advice with other players.|
 |Table Tennis fan|Find merchandise related to Table Tennis,|Show my support for the sport.|
 
-## Future Feature suggestions
+#### Future Feature suggestions
 
 - **Improved Subscription Feature**: I think it would be great to add more functionality to the subscription feature. For example, I could allow users to choose the frequency of updates they receive or provide exclusive content to subscribers.
 
