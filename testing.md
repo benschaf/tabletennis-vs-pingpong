@@ -110,3 +110,5 @@ Commits that are relevant to the bug are linked in the Commit hash(es) column.
 
 - When validating subscribed.html with lighthouse validation the accessibility score isn't 100% (see Lighthouse Audit). This is becasue of the automatic redirect link. 
     - The recommended fix for this is to make the user aware of the redicrect using (for example) a visual timer that runs out and a possibility to interrupt the automatic redirect. These features require javascript which is not in the scope of this project. The current solution is acceptable and not a major hinderance to accessibility since the user is warned via text.
+- [Github issue #19](https://github.com/benschaf/tabletennis-vs-pingpong/issues/19) Subscribe button from gallery to subscribe Section doesn't scroll down.
+    - Can't fix because I'm not able to reproduce the bug.
