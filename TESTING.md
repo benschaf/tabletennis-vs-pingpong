@@ -49,7 +49,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet (DevTools: iPad Air) | ![screenshot](documentation/images/testing/responsive-tablet-home.png) | ![screenshot](documentation/images/testing/responsive-tablet-gallery.png) | ![screenshot](documentation/images/testing/responsive-tablet-subscribed.png) |  Works as expected |
 | Desktop (DevTools: 1920 x 1080) | ![screenshot](documentation/images/testing/responsive-desktop-home.png) | ![screenshot](documentation/images/testing/responsive-desktop-gallery.png) | ![screenshot](documentation/images/testing/responsive-desktop-subscribed.png) | Works as expected |
 | 4K Monitor (DevTools: 3840 x 2160) | ![screenshot](documentation/images/testing/responsive-4k-home.png) | ![screenshot](documentation/images/testing/responsive-4k-gallery.png) | ![screenshot](documentation/images/testing/responsive-4k-subscribed.png) | Small issue where Navigation Bar and Footer are very spread apart |
-| Google Pixel 6 | ![screenshot](documentation/images/testing/responsive-pixel-home.png) | ![screenshot](documentation/images/testing/responsive-pixel-gallery.png) | ![screenshot](documentation/images/testing/responsive-pixel-subscribed.png) | Works as expected |
+| Google Pixel 6 (physical device) | ![screenshot](documentation/images/testing/responsive-pixel-home.png) | ![screenshot](documentation/images/testing/responsive-pixel-gallery.png) | ![screenshot](documentation/images/testing/responsive-pixel-subscribed.png) | Works as expected |
 
 ## Lighthouse Audit
 
