@@ -2,15 +2,6 @@
 
 Do you finally want to settle the difference between “Table Tennis” and “Ping Pong”? Have you never heard of the sport “Clickball” before? Then this website is perfect for you!
 
-![GitHub deployments](https://img.shields.io/github/deployments/https%3A%2F%2Fgithub.com%2Fbenschaf/https%3A%2F%2Fgithub.com%2Fbenschaf%2Ftabletennis-vs-pingpong/github-pages?link=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2F)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/https%3A%2F%2Fgithub.com%2Fbenschaf/https%3A%2F%2Fgithub.com%2Fbenschaf%2Ftabletennis-vs-pingpong/main?link=https%3A%2F%2Fgithub.com%2Fbenschaf%2Ftabletennis-vs-pingpong%2Fcommits%2Fmain%2F)
-![GitHub issues](https://img.shields.io/github/issues-raw/GET%20%2Fgithub%2Fissues%2F%3Auser%2F%3Arepohttps%3A%2F%2Fgithub.com%2Fbenschaf/https%3A%2F%2Fgithub.com%2Fbenschaf%2Ftabletennis-vs-pingpong?link=https%3A%2F%2Fgithub.com%2Fbenschaf%2Ftabletennis-vs-pingpong%2Fissues)
-[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2F&label=w3c%20-%20index.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2Findex.html)
-[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2Fgallery.html&label=w3c%20-%20gallery.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2Fgallery.html)
-[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2Fsubscribed.html&label=w3c%20-%20subscribed.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2Fsubscribed.html)
-[![Jigsaw](http://jigsaw.w3.org/css-validator/images/vcss-blue)](http://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2Fbenschaf.github.io%2Ftabletennis-vs-pingpong%2F&usermedium=all&vextwarning=true&warning=1
-)
-
 ![iamresponsive mockup image](documentation/images/mockup.png)
 
 This repository provides an engaging and informative platform that explores the history, differences, and fun facts about the terms Ping Pong, Table Tennis and Clickball. It includes five sections, covering the general differences of Ping Pong and Table Tennis, a visual representation of the key events and milestones in the history of Ping Pong and Table Tennis, an interesting collection of quotes on the topic, a subscription-based service that provides users with regular updates and insights about the world of Ping Pong and Table Tennis (Disclaimer: The subscription feature is still in development) and a media gallery.
